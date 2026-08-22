@@ -18,13 +18,13 @@ export default function specslab(car) {
   const cell = (s, i) => `
     <div style="padding:16px 18px 20px;${i % 3 ? `border-left:${hair};` : ''}
       ${i > 2 ? `border-top:${hair};` : ''}">
-      <div style="font-family:${FONT.mono};font-size:10px;letter-spacing:.26em;
-        text-transform:uppercase;color:${alpha(INK, 0.5)};">${s.k}</div>
+      <div style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+        text-transform:uppercase;color:${alpha(INK, 0.92)};">${s.k}</div>
       <div style="margin-top:12px;font-family:${FONT.archivo};font-weight:800;
         font-size:${String(s.v).length > 4 ? 30 : 44}px;letter-spacing:-.04em;
         line-height:.9;color:${INK};white-space:nowrap;">${s.v}</div>
-      <div style="margin-top:8px;font-family:${FONT.mono};font-size:10.5px;
-        letter-spacing:.05em;color:${alpha(INK, 0.55)};">${s.u}</div>
+      <div style="margin-top:8px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;
+        letter-spacing:0.05em;color:${alpha(INK, 0.92)};">${s.u}</div>
     </div>`;
 
   return `
@@ -40,8 +40,8 @@ export default function specslab(car) {
       <span style="font-family:${FONT.archivo};font-weight:700;font-size:22px;
         letter-spacing:.14em;color:${INK};">${b.name}</span>
     </div>
-    <span style="font-family:${FONT.mono};font-size:11px;letter-spacing:.28em;
-      text-transform:uppercase;color:${alpha(INK, 0.55)};">${car.model} · ${car.trim} · ${car.year}</span>
+    <span style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+      text-transform:uppercase;color:${alpha(INK, 0.92)};">${car.model} · ${car.trim} · ${car.year}</span>
   </div>
 
   <!-- the headline figure -->
@@ -52,8 +52,8 @@ export default function specslab(car) {
       <div style="padding-top:22px;text-align:right;">
         <div style="font-family:${FONT.archivo};font-weight:900;font-size:64px;line-height:.9;
           letter-spacing:-.03em;color:${blue};">HP</div>
-        <div style="margin-top:10px;font-family:${FONT.mono};font-size:11px;letter-spacing:.24em;
-          text-transform:uppercase;color:${alpha(INK, 0.55)};">combined<br>output</div>
+        <div style="margin-top:10px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+          text-transform:uppercase;color:${alpha(INK, 0.92)};">combined<br>output</div>
       </div>
     </div>
     <div style="margin-top:26px;font-family:${FONT.tight};font-weight:300;font-size:34px;
@@ -63,9 +63,9 @@ export default function specslab(car) {
     </div>
     <div style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:44px;
       padding-top:22px;border-top:${hair};">
-      <p style="font-family:${FONT.grotesk};font-size:15px;line-height:1.66;color:${alpha(INK, 0.7)};">
+      <p style="font-family:${FONT.grotesk};font-size:15px;line-height:1.66;color:${alpha(INK, 0.84)};">
         ${car.body}</p>
-      <p style="font-family:${FONT.grotesk};font-size:15px;line-height:1.66;color:${alpha(INK, 0.7)};">
+      <p style="font-family:${FONT.grotesk};font-size:15px;line-height:1.66;color:${alpha(INK, 0.84)};">
         The V8 keeps a flat-plane bark under load; the motor fills the gap below it.
         Two characters, one gearbox, and no perceptible seam between them.</p>
     </div>
@@ -87,8 +87,8 @@ export default function specslab(car) {
   <!-- footer -->
   <div style="position:absolute;left:${G}px;right:${G}px;bottom:${M}px;
     border-top:${hair};padding-top:18px;display:flex;justify-content:space-between;
-    align-items:baseline;font-family:${FONT.mono};font-size:11px;letter-spacing:.2em;
-    text-transform:uppercase;color:${alpha(INK, 0.55)};">
+    align-items:baseline;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+    text-transform:uppercase;color:${alpha(INK, 0.92)};">
     <span>${car.kicker}</span>
     <span style="color:${INK};font-family:${FONT.archivo};font-weight:800;font-size:15px;
       letter-spacing:.06em;">0–60 in ${car.specs[2].v} s</span>

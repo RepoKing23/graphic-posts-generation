@@ -8,7 +8,7 @@ import { PAPER, FONT, alpha, mix } from '../theme/tokens.js';
 import { BRANDS } from '../data/brands.js';
 import { halftone } from '../theme/motifs.js';
 import { specLedger, tag } from '../theme/blocks.js';
-import { carSVG } from '../theme/silhouettes.js';
+import { carSVG } from '../theme/carart.js';
 
 export default function halftonePoster(car) {
   const b = BRANDS[car.brand];
@@ -21,7 +21,7 @@ export default function halftonePoster(car) {
   const plate = (color, dx, dy) => `
     <div style="position:absolute;left:${dx}px;top:${dy}px;right:${-dx}px;
       mix-blend-mode:multiply;">
-      ${carSVG(car.profile, { fill: color, glass: alpha('#FFFFFF', 0.42), detail: alpha('#FFFFFF', 0.4),
+      ${carSVG(car.slug, { fallback: car.profile, fill: color, glass: alpha('#FFFFFF', 0.42), detail: alpha('#FFFFFF', 0.4),
         lamp: alpha('#FFFFFF', 0.5), tyre: mix(color, ink, 0.55), rim: alpha('#FFFFFF', 0.5),
         style: 'width:100%' })}
     </div>`;
@@ -64,13 +64,17 @@ export default function halftonePoster(car) {
       <path d="M11 0 V22 M0 11 H22" stroke="${ink}" stroke-width="1"/>
     </svg>`).join('')}
 
+  <!-- the screen is knocked out under the data, or the dots eat the units -->
+  <div style="position:absolute;left:40px;right:40px;bottom:36px;top:1090px;
+    background:${stock};"></div>
+
   <div style="position:absolute;left:64px;right:64px;bottom:112px;">
-    ${specLedger(car.specs, { color: ink, accent: ochre, valueSize: 32, labelSize: 9.5, unitSize: 9.5 })}
+    ${specLedger(car.specs, { color: ink, accent: ochre, valueSize: 32 })}
   </div>
 
   <div style="position:absolute;left:64px;right:64px;bottom:56px;display:flex;
-    justify-content:space-between;font-family:${FONT.mono};font-size:11px;letter-spacing:.24em;
-    text-transform:uppercase;color:${alpha(ink, 0.62)};">
+    justify-content:space-between;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+    text-transform:uppercase;color:${alpha(ink, 0.92)};">
     <span>${car.model} · ${car.trim}</span><span>${car.year} · two-colour</span>
   </div>`;
 }

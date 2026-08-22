@@ -18,9 +18,9 @@ export default function ticket(car) {
   const row = (k, v, i) => `
     <div style="display:flex;justify-content:space-between;align-items:baseline;
       padding:11px 0;${i ? `border-top:1px dashed ${alpha(INK, 0.28)};` : ''}">
-      <span style="font-family:${FONT.mono};font-size:11px;letter-spacing:.22em;
-        text-transform:uppercase;color:${alpha(INK, 0.55)};">${k}</span>
-      <span style="font-family:${FONT.mono};font-size:15px;font-weight:600;letter-spacing:.04em;
+      <span style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+        text-transform:uppercase;color:${alpha(INK, 0.92)};">${k}</span>
+      <span style="font-family:${FONT.mono};font-size:15px;font-weight:600;letter-spacing:0.04em;
         color:${INK};">${v}</span>
     </div>`;
 
@@ -40,8 +40,8 @@ export default function ticket(car) {
         <span style="font-family:${FONT.archivo};font-weight:500;font-size:17px;
           letter-spacing:.34em;text-transform:uppercase;color:${INK};">${b.name}</span>
       </div>
-      <span style="font-family:${FONT.mono};font-size:11px;letter-spacing:.24em;
-        text-transform:uppercase;color:${alpha(INK, 0.6)};">${car.kicker}</span>
+      <span style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+        text-transform:uppercase;color:${alpha(INK, 0.92)};">${car.kicker}</span>
     </div>
 
     <!-- title -->
@@ -50,7 +50,7 @@ export default function ticket(car) {
         letter-spacing:-.045em;color:${INK};">${car.model}<br>
         <span style="color:${red};">${car.trim}</span></div>
       <div style="margin-top:20px;font-family:${FONT.grotesk};font-size:15px;line-height:1.62;
-        color:${alpha(INK, 0.68)};max-width:560px;">${car.body}</div>
+        color:${alpha(INK, 0.84)};max-width:560px;">${car.body}</div>
     </div>
 
     <!-- car -->
@@ -80,31 +80,31 @@ export default function ticket(car) {
       <div>
         <div style="font-family:${FONT.archivo};font-weight:900;font-size:104px;line-height:.8;
           letter-spacing:-.055em;color:${INK};">${car.specs[0].v}</div>
-        <div style="margin-top:12px;font-family:${FONT.mono};font-size:10.5px;letter-spacing:.26em;
-          text-transform:uppercase;color:${alpha(INK, 0.6)};">horsepower · ${car.specs[5].u}</div>
+        <div style="margin-top:12px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+          text-transform:uppercase;color:${alpha(INK, 0.92)};">horsepower · ${car.specs[5].u}</div>
       </div>
       <div style="max-width:330px;text-align:right;">
-        <div style="font-family:${FONT.mono};font-size:10px;letter-spacing:.26em;
-          text-transform:uppercase;color:${alpha(INK, 0.5)};margin-bottom:10px;">Notes</div>
+        <div style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+          text-transform:uppercase;color:${alpha(INK, 0.92)};margin-bottom:10px;">Notes</div>
         <div style="font-family:${FONT.grotesk};font-size:14px;line-height:1.6;
-          color:${alpha(INK, 0.72)};">${car.line}</div>
+          color:${alpha(INK, 0.84)};">${car.line}</div>
         <div style="margin-top:24px;height:1px;background:${alpha(INK, 0.35)};"></div>
-        <div style="margin-top:8px;font-family:${FONT.mono};font-size:9.5px;letter-spacing:.24em;
-          text-transform:uppercase;color:${alpha(INK, 0.45)};">Authorised</div>
+        <div style="margin-top:8px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+          text-transform:uppercase;color:${alpha(INK, 0.92)};">Authorised</div>
       </div>
     </div>
 
     <!-- foot: barcode left, stamp right -->
     <div style="position:absolute;left:34px;bottom:30px;">
       ${barcode({ width: 320, height: 58, color: INK, seed: 9 })}
-      <div style="margin-top:9px;font-family:${FONT.mono};font-size:10.5px;letter-spacing:.3em;
-        color:${alpha(INK, 0.6)};">TSLA-${car.year}-${car.slug.slice(-5).toUpperCase()}</div>
+      <div style="margin-top:9px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+        color:${alpha(INK, 0.92)};">TSLA-${car.year}-${car.slug.slice(-5).toUpperCase()}</div>
     </div>
     <div style="position:absolute;right:34px;bottom:38px;transform:rotate(-8deg);
       border:3px solid ${red};border-radius:6px;padding:12px 20px 10px;opacity:.88;">
       <div style="font-family:${FONT.archivo};font-weight:900;font-size:34px;line-height:.9;
         letter-spacing:.02em;color:${red};">${car.specs[1].v} s</div>
-      <div style="margin-top:6px;font-family:${FONT.mono};font-size:9.5px;letter-spacing:.24em;
+      <div style="margin-top:6px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
         text-transform:uppercase;color:${red};">0–60 mph ${car.footnote || ''}</div>
     </div>
   </div>

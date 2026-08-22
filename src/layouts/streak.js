@@ -33,8 +33,8 @@ export default function streak(car) {
   <!-- masthead -->
   <div style="position:absolute;top:62px;left:66px;display:flex;align-items:center;gap:20px;">
     ${brandMark(car.brand, 44)}
-    <span style="font-family:${FONT.mono};font-size:11px;letter-spacing:.3em;
-      text-transform:uppercase;color:${alpha('#EFEFF2', 0.6)};">${car.year} · ${car.trim}</span>
+    <span style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+      text-transform:uppercase;color:${alpha('#EFEFF2', 0.92)};">${car.year} · ${car.trim}</span>
   </div>
 
   <!-- headline -->
@@ -53,8 +53,8 @@ export default function streak(car) {
     <div style="padding-bottom:22px;">
       <div style="font-family:${FONT.condensed};font-weight:800;font-size:56px;line-height:.8;
         letter-spacing:.02em;text-transform:uppercase;color:#F4F4F6;">hp</div>
-      <div style="margin-top:10px;font-family:${FONT.mono};font-size:10.5px;letter-spacing:.24em;
-        text-transform:uppercase;color:${alpha('#EFEFF2', 0.8)};">${car.specs[0].u}</div>
+      <div style="margin-top:10px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+        text-transform:uppercase;color:${alpha('#EFEFF2', 0.92)};">${car.specs[0].u}</div>
     </div>
   </div>
 
@@ -62,15 +62,15 @@ export default function streak(car) {
   <div style="position:absolute;left:66px;right:66px;bottom:150px;
     border-top:1px solid ${alpha('#EFEFF2', 0.22)};padding-top:22px;
     display:grid;grid-template-columns:1fr 1fr;gap:16px 60px;">
-    ${specTable(car.specs.slice(1, 4), { color: '#EFEFF2', accent: '#fff', labelSize: 10.5, valueSize: 19, rowGap: 13 })}
-    ${specTable(car.specs.slice(4), { color: '#EFEFF2', accent: '#fff', labelSize: 10.5, valueSize: 19, rowGap: 13 })}
+    ${specTable(car.specs.slice(1, 4), { color: '#EFEFF2', accent: '#fff', valueSize: 19, rowGap: 13 })}
+    ${specTable(car.specs.slice(4), { color: '#EFEFF2', accent: '#fff', valueSize: 19, rowGap: 13 })}
   </div>
 
   <div style="position:absolute;left:66px;bottom:66px;font-family:${FONT.condensed};
     font-weight:900;font-size:44px;letter-spacing:.01em;text-transform:uppercase;color:#fff;">
     ${b.name} ${car.model}</div>
-  <div style="position:absolute;right:66px;bottom:78px;font-family:${FONT.mono};font-size:11px;
-    letter-spacing:.24em;text-transform:uppercase;color:${alpha('#EFEFF2', 0.55)};">
+  <div style="position:absolute;right:66px;bottom:78px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;
+    letter-spacing:0.18em;text-transform:uppercase;color:${alpha('#EFEFF2', 0.92)};">
     ${car.specs[4].v} mph</div>
 
   ${grainLight(0.075)}`;

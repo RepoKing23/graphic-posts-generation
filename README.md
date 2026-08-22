@@ -36,10 +36,47 @@ npm run render 03 07
 npm run render blueprint
 ```
 
+## The car artwork
+
+Every car is drawn from scratch, one drawing per car, in `src/theme/carart.js`.
+They are not five archetypes stretched to fit ten cars — that is what made a
+Wrangler come out looking like a limousine. Each entry is scaled from published
+dimensions:
+
+- the viewBox carries the car's real length:height ratio, so a Defender is tall
+  and a Model S is low;
+- wheelbase, overhangs and tyre diameter come from the real figures, so a 911
+  sits back on its axles and an IONIQ 5 has almost no overhang;
+- the bodywork carries the cues you would name the car by — the GT3 RS
+  swan-neck wing, the Wrangler's seven-slot grille and tailgate spare, the
+  Defender's alpine roof lights, the IONIQ's pixel lamps;
+- wheels are per-brand: centre-lock, beadlock, turbine, aero disc, M-spoke.
+
+`npm run preview` renders all ten on their own to `out/preview-cars.png`, which
+is the fast way to judge the drawings without a poster layout on top of them.
+
+Adding an eleventh car means adding an entry to `CARS` in that file keyed by the
+car's slug. `ALIAS` maps the generic names (`sedan`, `suv`, `coupe`, …) onto
+real cars for the background traffic in the spotlight layout.
+
+## Type that survives the feed
+
+These are 1080 x 1350 files read a few hundred pixels wide. `src/theme/blocks.js`
+enforces a floor — 12px on tracked caps labels, 12.5px on unit strings, 0.74
+alpha on anything set against its own ground — because unit strings like
+`L supercharged V8` at 9.5px and half opacity are decoration, not information.
+Tracking comes down as size comes down for the same reason.
+
+Where type has to sit on artwork or a busy ground, knock the ground out rather
+than dimming the type: the halftone poster clears its dot screen under the spec
+ledger, and `carSVG` takes an `outline` so a white car still reads on white
+paper.
+
 ## Adding photography
 
-The posters ship using hand-drawn vector silhouettes so they are complete out of
-the box. There are two image slots, and dropping a file into either swaps it in:
+The drawings above are the default, so the set is complete out of the box.
+There are two image slots, and dropping a file into either swaps a photograph
+in instead:
 
 | File | Used for |
 |---|---|
@@ -59,7 +96,8 @@ npm run render
 
 Photographer credit lands in `assets/cars/credits.json`. The hero slot needs a
 background-free cut-out, which stock search cannot provide — cut one yourself
-and save it as `<slug>-cutout.png`.
+and save it as `<slug>-cutout.png`. With no key set, or no network, the posters
+fall back to the drawings and render exactly as committed.
 
 ## Layout of the code
 
@@ -69,7 +107,7 @@ src/data/brands.js      manufacturer marks, hand-authored as SVG
 src/theme/tokens.js     palettes, type stacks, grain, colour helpers
 src/theme/blocks.js     spec ledger / table / hero numeral
 src/theme/motifs.js     moiré, halftone, dimension lines, streaks, barcode…
-src/theme/silhouettes.js five side profiles, drawn to real dimensional ratios
+src/theme/carart.js     ten per-car drawings, scaled from published dimensions
 src/layouts/*.js        one module per poster — render(car) → HTML
 src/render.mjs          Chromium loop, size + typeface assertions
 ```
@@ -81,9 +119,11 @@ and re-render. Structural changes belong in the matching `src/layouts/*.js`.
 
 ### Adding an eleventh
 
-Add an entry to `CARS` with a new `layout` name, then create
-`src/layouts/<name>.js` exporting `default function (car) { return '<html>' }`.
-The renderer picks it up automatically.
+Add an entry to `CARS` in `src/data/cars.js` with a new `layout` name, then
+create `src/layouts/<name>.js` exporting
+`default function (car) { return '<html>' }`. The renderer picks it up
+automatically. Give the car a drawing in `src/theme/carart.js` keyed by its
+slug, or it falls back to the nearest archetype.
 
 ## House rules
 
@@ -99,6 +139,8 @@ across every layout:
   inside a single line.
 - Hairline rules instead of boxes, a real baseline grid, deliberate asymmetry,
   print grain over everything.
+- Small type is information, not texture. Nothing under the floor in
+  `src/theme/blocks.js`, and no text left to fight a pattern it sits on.
 
 ## Notes
 

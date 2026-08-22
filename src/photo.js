@@ -9,13 +9,14 @@
  *                                  floats free on the page.
  *
  * A stock search gives you the first; only a cut-out gives you the second, so
- * a hero slot with no cut-out falls back to the vector silhouette rather than
- * dropping a rectangle with its own background into the middle of the poster.
+ * a hero slot with no cut-out falls back to that car's own drawing (see
+ * theme/carart.js) rather than dropping a rectangle with its own background
+ * into the middle of the poster.
  */
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { carSVG } from './theme/silhouettes.js';
+import { carSVG } from './theme/carart.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CARS_DIR = path.join(ROOT, 'assets', 'cars');
@@ -61,14 +62,14 @@ export function photoPanel(car, {
       display:flex;align-items:center;justify-content:center;overflow:hidden;${style}">
     <div style="position:absolute;inset:0;
       background:radial-gradient(62% 46% at 50% 62%, rgba(255,255,255,.55), transparent 70%);"></div>
-    ${carSVG(car.profile, { fill: body, sheen, shadow: !crop,
+    ${carSVG(car.slug, { fallback: car.profile, fill: body, sheen, shadow: !crop,
       style: `width:${crop ? '100%' : '126%'};position:relative;${zoom}` })}
   </div>`;
 }
 
 /**
  * Free-floating hero car. Uses a transparent cut-out when one exists, and the
- * silhouette otherwise. Silhouette options pass straight through to carSVG.
+ * car's own drawing otherwise. Drawing options pass straight through to carSVG.
  */
 export function heroCar(car, { style = '', filter = '', ...silhouette } = {}) {
   const src = cutoutOf(car.slug);
@@ -76,7 +77,7 @@ export function heroCar(car, { style = '', filter = '', ...silhouette } = {}) {
     return `<img src="${src}" style="width:100%;display:block;
       ${filter ? `filter:${filter};` : ''}${style}"/>`;
   }
-  return carSVG(car.profile, { ...silhouette, style: `width:100%;display:block;${style}` });
+  return carSVG(car.slug, { fallback: car.profile, ...silhouette, style: `width:100%;display:block;${style}` });
 }
 
 /** Did this car get real photography? Used by the gallery to report coverage. */

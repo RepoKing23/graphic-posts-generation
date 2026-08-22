@@ -8,6 +8,7 @@
     "fonts": "node scripts/fetch-fonts.mjs",
     "photos": "node scripts/fetch-photos.mjs",
     "render": "node src/render.mjs",
+    "preview": "node scripts/preview-cars.mjs",
     "build": "npm run fonts && npm run render"
   },
   "dependencies": {

@@ -27,8 +27,8 @@ export default function triptych(car) {
       })}
       <div style="position:absolute;inset:0;
         background:linear-gradient(${PAPER[0]}00 62%, ${alpha(PAPER[0], 0.55)});"></div>
-      <div style="position:absolute;left:14px;bottom:12px;font-family:${FONT.mono};
-        font-size:10px;letter-spacing:.26em;color:${alpha(INK, 0.5)};">0${i + 1}</div>
+      <div style="position:absolute;left:14px;bottom:12px;font-family:${FONT.mono};font-weight:600;
+        font-size:12.5px;letter-spacing:0.18em;color:${alpha(INK, 0.92)};">0${i + 1}</div>
     </div>`;
 
   return `
@@ -65,13 +65,13 @@ export default function triptych(car) {
 
   <!-- copy -->
   <div style="position:absolute;top:1122px;left:176px;right:176px;text-align:center;
-    font-family:${FONT.grotesk};font-size:15.5px;line-height:1.62;color:${alpha(INK, 0.68)};">
+    font-family:${FONT.grotesk};font-size:15.5px;line-height:1.62;color:${alpha(INK, 0.84)};">
     ${car.body}
   </div>
 
   <!-- ledger -->
   <div style="position:absolute;left:74px;right:74px;bottom:60px;">
-    ${specLedger(car.specs, { color: INK, accent: car.accent, valueSize: 34, labelSize: 9.5, unitSize: 9.5 })}
+    ${specLedger(car.specs, { color: INK, accent: car.accent, valueSize: 34 })}
   </div>
 
   ${grain(0.05)}`;

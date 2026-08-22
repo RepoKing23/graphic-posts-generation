@@ -7,13 +7,13 @@
 import { STEEL, FONT, grainLight, alpha, mix } from '../theme/tokens.js';
 import { BRANDS } from '../data/brands.js';
 import { graphPaper, dimension, leader } from '../theme/motifs.js';
-import { carSVG } from '../theme/silhouettes.js';
+import { carSVG } from '../theme/carart.js';
 
 export default function blueprint(car) {
   const b = BRANDS[car.brand];
   const cy = car.accent;                       // drawing cyan
   const ink = '#050A14';
-  const dim = alpha(cy, 0.72);
+  const dim = alpha(cy, 0.95);
 
   // Four callouts, one per corner of the drawing, each with a leader that
   // lands on the part of the car it describes.
@@ -40,11 +40,11 @@ export default function blueprint(car) {
     <div>
       <div style="font-family:${FONT.archivo};font-weight:500;font-size:30px;letter-spacing:.3em;
         color:${cy};">${b.name.toUpperCase()}</div>
-      <div style="margin-top:9px;font-family:${FONT.mono};font-size:11px;letter-spacing:.26em;
-        text-transform:uppercase;color:${alpha(cy, 0.6)};">${car.kicker}</div>
+      <div style="margin-top:9px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+        text-transform:uppercase;color:${alpha(cy, 0.92)};">${car.kicker}</div>
     </div>
-    <div style="text-align:right;font-family:${FONT.mono};font-size:11px;letter-spacing:.2em;
-      text-transform:uppercase;color:${alpha(cy, 0.6)};line-height:1.9;">
+    <div style="text-align:right;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+      text-transform:uppercase;color:${alpha(cy, 0.92)};line-height:1.9;">
       Type ${car.trim}<br>Sheet 01 of 01
     </div>
   </div>
@@ -55,13 +55,13 @@ export default function blueprint(car) {
       letter-spacing:-.04em;color:#EAF6FF;">${car.model.replace(' ', '<br>')}</div>
   </div>
   <div style="position:absolute;top:210px;right:70px;width:330px;text-align:right;
-    font-family:${FONT.grotesk};font-size:14.5px;line-height:1.66;color:${alpha('#EAF6FF', 0.72)};">
+    font-family:${FONT.grotesk};font-size:14.5px;line-height:1.66;color:${alpha('#EAF6FF', 0.84)};">
     ${car.body}
   </div>
 
   <!-- the drawing -->
   <div style="position:absolute;top:500px;left:96px;width:888px;">
-    ${carSVG(car.profile, { fill: 'none', stroke: cy, width: 2.4, tyre: 'none', rim: 'none',
+    ${carSVG(car.slug, { fallback: car.profile, fill: 'none', stroke: cy, width: 2.4, tyre: 'none', rim: 'none',
       glass: 'none', lamp: 'none', style: 'width:100%' })}
   </div>
 
@@ -80,18 +80,18 @@ export default function blueprint(car) {
   ${CALLOUTS.map((c) => `
     <div style="position:absolute;top:${c.y}px;
       ${c.side === 'l' ? 'left:96px' : 'right:96px;text-align:right'};width:250px;">
-      <div style="font-family:${FONT.mono};font-size:10px;letter-spacing:.26em;text-transform:uppercase;
-        color:${alpha(cy, 0.62)};margin-bottom:6px;">${c.s.k}</div>
+      <div style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;text-transform:uppercase;
+        color:${alpha(cy, 0.92)};margin-bottom:6px;">${c.s.k}</div>
       <div style="font-family:${FONT.archivo};font-weight:800;font-size:32px;letter-spacing:-.02em;
         color:#EAF6FF;line-height:1;">${c.s.v}
-        <span style="font-family:${FONT.mono};font-size:11px;font-weight:400;letter-spacing:.08em;
-          color:${alpha(cy, 0.75)};">${c.s.u}</span></div>
+        <span style="font-family:${FONT.mono};font-size:12.5px;font-weight:400;letter-spacing:0.08em;
+          color:${alpha(cy, 0.92)};">${c.s.u}</span></div>
     </div>`).join('')}
 
   <!-- title block, bottom-right, as on a real sheet -->
   <div style="position:absolute;right:70px;bottom:76px;width:420px;
-    border:1px solid ${alpha(cy, 0.42)};font-family:${FONT.mono};font-size:10.5px;
-    letter-spacing:.16em;text-transform:uppercase;color:${alpha(cy, 0.78)};">
+    border:1px solid ${alpha(cy, 0.42)};font-family:${FONT.mono};font-weight:600;font-size:12.5px;
+    letter-spacing:0.14em;text-transform:uppercase;color:${alpha(cy, 0.92)};">
     ${[['Scale', '1 : 18'], ['Projection', 'First angle'], ['Redline', car.specs[3].v + ' rpm'],
        ['0–60 mph', car.specs[4].v + ' s'], ['Drawn', car.year]]
       .map(([k, v], i) => `
@@ -103,8 +103,8 @@ export default function blueprint(car) {
   <div style="position:absolute;left:70px;bottom:80px;width:420px;">
     <div style="font-family:${FONT.archivo};font-weight:900;font-size:84px;line-height:.86;
       letter-spacing:-.05em;color:${cy};">${car.specs[5].v}</div>
-    <div style="margin-top:12px;font-family:${FONT.mono};font-size:11px;letter-spacing:.24em;
-      text-transform:uppercase;color:${alpha('#EAF6FF', 0.66)};">
+    <div style="margin-top:12px;font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;
+      text-transform:uppercase;color:${alpha('#EAF6FF', 0.92)};">
       ${car.specs[5].k} · ${car.specs[5].u}</div>
   </div>
 

@@ -89,12 +89,12 @@ export default function concentric(car) {
   </div>
 
   <div style="position:absolute;left:92px;right:92px;bottom:122px;">
-    ${specLedger(car.specs, { color: INK, accent: INK, valueSize: 33, labelSize: 9.5, unitSize: 9.5 })}
+    ${specLedger(car.specs, { color: INK, accent: INK, valueSize: 33 })}
   </div>
 
   <div style="position:absolute;left:132px;right:132px;bottom:50px;text-align:center;
     font-family:${FONT.archivo};font-weight:600;font-size:11.5px;line-height:1.66;
-    letter-spacing:.055em;text-transform:uppercase;color:${alpha(INK, 0.55)};">
+    letter-spacing:.055em;text-transform:uppercase;color:${alpha(INK, 0.84)};">
     ${car.body}
   </div>
 

@@ -8,7 +8,7 @@ import { STEEL, FONT, grainLight, alpha, mix } from '../theme/tokens.js';
 import { BRANDS, brandMark } from '../data/brands.js';
 import { specTable, tag } from '../theme/blocks.js';
 import { heroCar, photoOf, photoPanel } from '../photo.js';
-import { carSVG } from '../theme/silhouettes.js';
+import { carSVG } from '../theme/carart.js';
 
 export default function spotlight(car) {
   const b = BRANDS[car.brand];
@@ -94,7 +94,7 @@ export default function spotlight(car) {
 
   <!-- spec table -->
   <div style="position:absolute;right:64px;bottom:212px;width:352px;">
-    ${specTable(car.specs.slice(0, 4), { color: '#EDF0F4', accent: '#fff', labelSize: 10.5, valueSize: 19, rowGap: 13 })}
+    ${specTable(car.specs.slice(0, 4), { color: '#EDF0F4', accent: '#fff', valueSize: 19, rowGap: 13 })}
   </div>
 
   <!-- footer -->
@@ -103,8 +103,8 @@ export default function spotlight(car) {
   <div style="position:absolute;left:64px;bottom:52px;font-family:${FONT.archivo};
     font-weight:800;font-size:22px;letter-spacing:.02em;color:#fff;">
     ${car.model} <span style="color:${blue};">${car.trim}</span></div>
-  <div style="position:absolute;right:64px;bottom:54px;font-family:${FONT.mono};font-size:12px;
-    letter-spacing:.24em;text-transform:uppercase;color:${alpha('#EDF0F4', 0.6)};">
+  <div style="position:absolute;right:64px;bottom:54px;font-family:${FONT.mono};font-weight:600;font-size:12px;
+    letter-spacing:0.18em;text-transform:uppercase;color:${alpha('#EDF0F4', 0.92)};">
     ${car.year} · book a test drive</div>
 
   ${grainLight(0.07)}`;

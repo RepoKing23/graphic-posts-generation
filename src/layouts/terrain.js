@@ -64,26 +64,27 @@ export default function terrain(car) {
   </div>
 
   <!-- car, sitting on the road -->
-  <div style="position:absolute;top:678px;left:236px;width:700px;transform:rotate(-1.6deg);">
-    ${heroCar(car, { fill: '#F5F4F0', detail: 'rgba(0,0,0,.30)', lamp: 'rgba(0,0,0,.2)',
-      glass: 'rgba(30,34,42,.7)', sheen: 'rgba(255,255,255,.62)',
-      tyre: '#111214', rim: '#C6CAD0', shadow: true })}
+  <div style="position:absolute;top:706px;left:250px;width:686px;transform:rotate(-1.2deg);">
+    ${heroCar(car, { fill: '#FBFAF7', detail: 'rgba(0,0,0,.42)', lamp: 'rgba(0,0,0,.34)',
+      glass: 'rgba(24,28,36,.86)', sheen: 'rgba(0,0,0,.05)',
+      tyre: '#0E0F11', rim: '#9AA0A8', shadow: true,
+      outline: 'rgba(20,22,26,.72)', outlineWidth: 3.4 })}
   </div>
 
   <!-- model plate -->
   <div style="position:absolute;left:66px;top:952px;">
-    <div style="font-family:${FONT.mono};font-size:11px;letter-spacing:.3em;text-transform:uppercase;
-      color:${alpha(INK, 0.55)};margin-bottom:10px;">${car.year} · ${car.trim}</div>
+    <div style="font-family:${FONT.mono};font-weight:600;font-size:12.5px;letter-spacing:0.18em;text-transform:uppercase;
+      color:${alpha(INK, 0.92)};margin-bottom:10px;">${car.year} · ${car.trim}</div>
     <div style="font-family:${FONT.archivo};font-weight:900;font-size:52px;letter-spacing:-.03em;
       color:${INK};line-height:.92;">${car.model}</div>
   </div>
 
   <div style="position:absolute;left:66px;right:66px;top:1092px;">
-    ${specLedger(car.specs, { color: INK, accent: red, valueSize: 32, labelSize: 9.5, unitSize: 9.5 })}
+    ${specLedger(car.specs, { color: INK, accent: red, valueSize: 32 })}
   </div>
 
   <div style="position:absolute;left:66px;right:66px;bottom:52px;text-align:center;
-    font-family:${FONT.grotesk};font-size:14px;line-height:1.6;color:${alpha(INK, 0.62)};">
+    font-family:${FONT.grotesk};font-size:14px;line-height:1.6;color:${alpha(INK, 0.84)};">
     ${car.body}
   </div>
 

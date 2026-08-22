@@ -5,7 +5,7 @@
  * as noted). Nothing here is invented — see NOTICE.md on verifying before use.
  *
  *   layout      which module in src/layouts renders it
- *   profile     silhouette used when no photograph is present
+ *   profile     archetype fallback if a car has no drawing in theme/carart.js
  *   photoQuery  search terms for scripts/fetch-photos.mjs
  *   accent      the ONE saturated colour the poster is allowed
  */
