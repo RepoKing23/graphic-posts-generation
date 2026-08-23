@@ -5,10 +5,13 @@ import path from 'node:path';
 import { CARS } from './data/cars.js';
 import { BRANDS } from './data/brands.js';
 import { photoStatus } from './photo.js';
+import { textureCoverage } from './texture.js';
 
 /** Always lists every poster on disk, not just the ones this run produced —
  *  otherwise `npm run render 03` leaves a contact sheet with one poster on it. */
 export async function buildGallery(_written, outDir) {
+  const tex = textureCoverage();
+  const haveTex = tex.filter((t) => t.present).length;
   const cards = CARS
     .map((car) => ({ car, file: `${car.id}-${car.slug}.png` }))
     .filter(({ file }) => existsSync(path.join(outDir, file)))
@@ -16,7 +19,7 @@ export async function buildGallery(_written, outDir) {
     const st = photoStatus(car);
     const src = st.photo || st.cutout
       ? [st.photo && 'photo', st.cutout && 'cut-out'].filter(Boolean).join(' + ')
-      : 'silhouette';
+      : 'vector car';
     return `<figure>
       <a href="${file}" target="_blank"><img src="${file}" alt="${car.model}"></a>
       <figcaption>
@@ -43,9 +46,11 @@ figcaption span{color:var(--mut);text-transform:uppercase;letter-spacing:.12em;f
   white-space:nowrap;align-self:center;}
 </style>
 <h1>Car spec posts</h1>
-<p class="sub">Ten 1080&times;1350 posters, rendered from code. Posters marked
-<em>silhouette</em> are using the vector fallback — drop a photograph into
-<code>assets/cars/</code> and re-run <code>npm run render</code> to swap it in.</p>
+<p class="sub">Ten 1080&times;1350 posters, rendered from code. The identifiable car in each
+poster is vector by design; photography supplies the world around it.
+<b>${haveTex} of ${tex.length} textures present.</b>
+${haveTex === tex.length ? '' : `Missing: <code>${tex.filter((t) => !t.present).map((t) => t.id).join('</code> <code>')}</code>.
+See <code>SHOTLIST.md</code>, drop them in <code>assets/textures/</code>, re-run <code>npm run render</code>.`}</p>
 <div class="grid">${cards}</div>`;
 
   await writeFile(path.join(outDir, 'index.html'), html);

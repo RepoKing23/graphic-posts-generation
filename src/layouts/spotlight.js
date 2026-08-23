@@ -9,6 +9,7 @@ import { BRANDS, brandMark } from '../data/brands.js';
 import { specTable, tag } from '../theme/blocks.js';
 import { heroCar, photoOf, photoPanel } from '../photo.js';
 import { carSVG } from '../theme/silhouettes.js';
+import { texture, hasTexture } from '../texture.js';
 
 export default function spotlight(car) {
   const b = BRANDS[car.brand];
@@ -38,7 +39,27 @@ export default function spotlight(car) {
   <div style="position:absolute;inset:0;background:
     radial-gradient(80% 46% at 50% 52%, ${mix(STEEL[6], blue, 0.16)} 0%, ${STEEL[7]} 62%, #05070A 100%);"></div>
 
-  ${fleet}
+  <!-- The fleet: a real night car park when one is present, the generated
+       rows of silhouettes otherwise. -->
+  ${hasTexture('night-carpark')
+    ? `<div style="position:absolute;left:0;right:0;top:250px;height:660px;">
+        ${texture('night-carpark', {
+          position: 'center 40%',
+          grade: { contrast: 1.18, saturate: 0.2, brightness: 0.42 },
+          tint: { colour: blue, mode: 'overlay', opacity: 0.3 },
+        })}
+        <div style="position:absolute;inset:0;background:
+          linear-gradient(180deg, ${STEEL[7]} 0%, transparent 22%, transparent 62%, ${STEEL[7]} 100%);"></div>
+        <div style="position:absolute;inset:0;background:
+          radial-gradient(58% 46% at 50% 62%, transparent 30%, ${alpha(STEEL[7], 0.72)} 100%);"></div>
+      </div>`
+    : fleet}
+  ${hasTexture('wet-asphalt') ? `<div style="position:absolute;left:0;right:0;bottom:0;height:420px;">
+    ${texture('wet-asphalt', { position: 'center 70%',
+      grade: { contrast: 1.2, saturate: 0.18, brightness: 0.34 }, opacity: 0.8 })}
+    <div style="position:absolute;inset:0;background:
+      linear-gradient(180deg, ${STEEL[7]} 0%, transparent 34%, ${alpha('#05070A', 0.9)} 100%);"></div>
+  </div>` : ''}
 
   <!-- the light cone that picks out one car -->
   <div style="position:absolute;left:50%;top:0;width:900px;height:880px;

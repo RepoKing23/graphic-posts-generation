@@ -8,6 +8,7 @@ import { STEEL, INK, FONT, grain, alpha, mix } from '../theme/tokens.js';
 import { BRANDS, brandMark } from '../data/brands.js';
 import { barcode, perforation } from '../theme/motifs.js';
 import { heroCar } from '../photo.js';
+import { texture } from '../texture.js';
 
 export default function ticket(car) {
   const b = BRANDS[car.brand];
@@ -27,10 +28,14 @@ export default function ticket(car) {
   return `
   <div style="position:absolute;inset:0;background:
     radial-gradient(90% 60% at 50% 30%, ${STEEL[5]}, ${STEEL[7]} 72%, #05070A 100%);"></div>
+  ${texture('asphalt', { grade: { contrast: 1.15, saturate: 0.1, brightness: 0.38 },
+    opacity: 0.55, blend: 'overlay' })}
 
   <!-- the card -->
   <div style="position:absolute;left:${M}px;right:${M}px;top:${M}px;bottom:${M}px;
     background:${card};box-shadow:0 40px 90px rgba(0,0,0,.5);overflow:hidden;">
+    ${texture('paper-fibre', { grade: { saturate: 0, contrast: 1.08, brightness: 1.03 },
+      opacity: 0.45, blend: 'multiply' })}
 
     <!-- header strip -->
     <div style="display:flex;align-items:center;justify-content:space-between;

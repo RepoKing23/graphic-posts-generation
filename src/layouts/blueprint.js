@@ -8,6 +8,7 @@ import { STEEL, FONT, grainLight, alpha, mix } from '../theme/tokens.js';
 import { BRANDS } from '../data/brands.js';
 import { graphPaper, dimension, leader } from '../theme/motifs.js';
 import { carSVG } from '../theme/silhouettes.js';
+import { texture } from '../texture.js';
 
 export default function blueprint(car) {
   const b = BRANDS[car.brand];
@@ -27,6 +28,8 @@ export default function blueprint(car) {
   return `
   <div style="position:absolute;inset:0;background:
     radial-gradient(120% 80% at 50% 40%, ${mix(ink, cy, 0.09)}, ${ink} 70%);"></div>
+  ${texture('carbon-weave', { grade: { contrast: 1.2, saturate: 0, brightness: 0.5 },
+    opacity: 0.18, blend: 'screen' })}
   <div style="position:absolute;inset:0;${graphPaper({ color: cy, opacity: 0.15 })}"></div>
 
   <!-- sheet border -->

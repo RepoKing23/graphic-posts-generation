@@ -10,6 +10,7 @@ import { wordmark } from '../data/brands.js';
 import { xColumn } from '../theme/motifs.js';
 import { specLedger } from '../theme/blocks.js';
 import { photoPanel, heroCar, photoOf } from '../photo.js';
+import { texture, hasTexture } from '../texture.js';
 
 /** Ring field sized to its own box rather than the whole stage. */
 const ringBox = (w, h, { cx, cy, from, to, step, color, width, opacity = 1 }) => {
@@ -34,10 +35,19 @@ export default function concentric(car) {
   const slat = (i) => `
     <div style="flex:1;position:relative;overflow:hidden;border-radius:16px 16px 3px 3px;
       background:linear-gradient(${152 + i * 12}deg, ${red}, ${mix(red, '#2A0206', 0.62)});">
-      ${hasPhoto ? `<div style="position:absolute;inset:0;opacity:.55;">
-        ${photoPanel(car, { position: ['30% 45%', '50% 50%', '72% 45%'][i],
-          filter: 'grayscale(1) contrast(1.25)' })}
-      </div>` : ''}
+      ${hasTexture('terrain-mud')
+        ? texture('terrain-mud', {
+            position: ['28% 50%', '50% 50%', '72% 50%'][i],
+            // Flattened to a red monotone so the slats stay one colour and the
+            // moire on top still reads.
+            grade: { contrast: 1.3, saturate: 0, brightness: 0.92 },
+            tint: { colour: red, mode: 'multiply', opacity: 0.82 },
+            opacity: 0.66,
+          })
+        : hasPhoto ? `<div style="position:absolute;inset:0;opacity:.55;">
+            ${photoPanel(car, { position: ['30% 45%', '50% 50%', '72% 45%'][i],
+              filter: 'grayscale(1) contrast(1.25)' })}
+          </div>` : ''}
       ${ringBox(260, 384, { cx: 130 + (i - 1) * 46, cy: 168, from: 10, to: 400,
         step: 7.5, color: alpha('#1A0003', 0.42), width: 1.7 })}
       <div style="position:absolute;inset:0;

@@ -9,6 +9,7 @@ import { BRANDS, brandMark } from '../data/brands.js';
 import { streaks } from '../theme/motifs.js';
 import { specTable, tag } from '../theme/blocks.js';
 import { heroCar } from '../photo.js';
+import { texture, hasTexture } from '../texture.js';
 
 export default function streak(car) {
   const b = BRANDS[car.brand];
@@ -18,8 +19,15 @@ export default function streak(car) {
   return `
   <div style="position:absolute;inset:0;background:
     radial-gradient(96% 60% at 78% 44%, ${mix(night, amber, 0.13)}, ${night} 66%, #040507 100%);"></div>
-  <div style="position:absolute;inset:0;opacity:.62;">${streaks({ color: amber, count: 15, seed: 11 })}</div>
-  <div style="position:absolute;inset:0;opacity:.3;">${streaks({ color: '#9FC7FF', count: 8, seed: 41 })}</div>
+  ${hasTexture('light-trails')
+    ? `${texture('light-trails', { position: 'center 45%',
+         grade: { contrast: 1.35, saturate: 0.5, brightness: 0.72 },
+         tint: { colour: amber, mode: 'overlay', opacity: 0.5 }, opacity: 0.62, blend: 'screen' })}
+       <div style="position:absolute;inset:0;background:
+         radial-gradient(70% 46% at 50% 46%, transparent 20%, ${night} 96%);"></div>
+       <div style="position:absolute;inset:0;opacity:.22;">${streaks({ color: amber, count: 7, seed: 11 })}</div>`
+    : `<div style="position:absolute;inset:0;opacity:.62;">${streaks({ color: amber, count: 15, seed: 11 })}</div>
+       <div style="position:absolute;inset:0;opacity:.3;">${streaks({ color: '#9FC7FF', count: 8, seed: 41 })}</div>`}
 
   <!-- car, cropped by the right edge and blurred into motion at the tail -->
   <div style="position:absolute;top:436px;left:150px;width:1220px;">

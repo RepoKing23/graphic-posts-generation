@@ -12,5 +12,11 @@ endorsement by these manufacturers** without permission from the trademark holde
 Vehicle specifications are drawn from published manufacturer figures and are included
 for illustrative purposes; verify against current official sources before any real use.
 
-Car photography fetched by `scripts/fetch-photos.mjs` comes from Unsplash under the
-Unsplash Licence. Photographer attribution is written to `assets/cars/credits.json`.
+Photography — both the textures in `assets/textures/` and any per-car images in
+`assets/cars/` — comes from Unsplash under the Unsplash Licence: free to use
+commercially, no attribution required. Credit is recorded in `credits.json`
+beside each set regardless.
+
+Note that a licence to use a photograph is not a licence to use the trademarks
+visible inside it. If you drop in a photo of a real, badged car, the caution
+above about manufacturer marks applies to that badge too.

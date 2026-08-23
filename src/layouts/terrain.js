@@ -9,6 +9,7 @@ import { BRANDS, brandMark } from '../data/brands.js';
 import { massif } from '../theme/motifs.js';
 import { specLedger } from '../theme/blocks.js';
 import { heroCar } from '../photo.js';
+import { texture, hasTexture } from '../texture.js';
 
 export default function terrain(car) {
   const b = BRANDS[car.brand];
@@ -17,6 +18,16 @@ export default function terrain(car) {
   return `
   <div style="position:absolute;inset:0;background:
     linear-gradient(200deg, #FFFFFF 0%, ${PAPER[0]} 52%, ${PAPER[1]} 100%);"></div>
+
+  <!-- real ridgelines behind the paper massif, if present -->
+  ${hasTexture('mountain-mist') ? `<div style="position:absolute;left:0;right:0;top:150px;height:660px;">
+    ${texture('mountain-mist', { position: 'center 40%',
+      grade: { contrast: 0.92, saturate: 0.12, brightness: 1.16 }, opacity: 0.7 })}
+    <div style="position:absolute;inset:0;background:
+      linear-gradient(180deg, ${PAPER[0]} 0%, transparent 30%, transparent 52%, ${PAPER[0]} 92%);"></div>
+    <div style="position:absolute;inset:0;background:
+      linear-gradient(90deg, transparent 0%, transparent 52%, ${PAPER[0]} 96%);"></div>
+  </div>` : ''}
 
   <!-- massif, pushed left and faded into the paper -->
   <div style="position:absolute;left:-140px;top:236px;width:900px;height:560px;opacity:.9;">
@@ -28,7 +39,7 @@ export default function terrain(car) {
   <!-- the road: a slab in perspective with a broken centre line -->
   <div style="position:absolute;left:0;right:0;top:742px;height:290px;">
     <svg viewBox="0 0 1080 290" width="1080" height="290" xmlns="http://www.w3.org/2000/svg">
-      <path d="M 96 290 L 372 96 L 1080 78 L 1080 176 L 470 214 L 300 290 Z" fill="${PAPER[4]}"/>
+      <path id="road-top" d="M 96 290 L 372 96 L 1080 78 L 1080 176 L 470 214 L 300 290 Z" fill="${PAPER[4]}"/>
       <path d="M 96 290 L 372 96 L 1080 78 L 1080 96 L 392 122 L 150 290 Z" fill="${PAPER[3]}"/>
       <path d="M 300 290 L 470 214 L 1080 176 L 1080 192 L 486 232 L 340 290 Z" fill="${alpha(INK, 0.16)}"/>
       <g fill="${PAPER[1]}">
@@ -41,6 +52,11 @@ export default function terrain(car) {
       </g>
     </svg>
   </div>
+
+  ${hasTexture('asphalt') ? `<div style="position:absolute;left:0;right:0;top:742px;height:290px;
+    clip-path:polygon(8.9% 100%, 34.4% 33%, 100% 27%, 100% 60.7%, 43.5% 73.8%, 27.8% 100%);">
+    ${texture('asphalt', { grade: { contrast: 1.1, saturate: 0.1, brightness: 0.94 }, opacity: 0.9 })}
+  </div>` : ''}
 
   <!-- masthead: badge left, wordmark right, as the reference sets it -->
   <div style="position:absolute;top:58px;left:62px;background:${red};width:74px;height:74px;

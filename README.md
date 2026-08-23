@@ -38,34 +38,67 @@ npm run render blueprint
 
 ## Adding photography
 
-The posters ship using hand-drawn vector silhouettes so they are complete out of
-the box. There are two image slots, and dropping a file into either swaps it in:
+**Start with [`SHOTLIST.md`](SHOTLIST.md)** — fourteen textures, each with a
+hand-picked Unsplash candidate and the exact filename to save it as.
+
+The division of labour is deliberate: **photography supplies the world, the
+identifiable car stays vector.** A night car park, mud, light trails, a studio
+sweep, macro detail — that is what a camera does best, and it is what stock
+libraries actually carry de-branded and cleanly licensable. The car itself is
+drawn (`src/theme/silhouettes.js`), so a Toyota poster shows something honestly
+labelled a Toyota rather than whichever generic hatchback a search returned.
+
+Three drop-in slots, all optional, each swapping in on the next render:
 
 | File | Used for |
 |---|---|
-| `assets/cars/<slug>.jpg` | rectangular photograph — panels, bands, backgrounds |
-| `assets/cars/<slug>-cutout.png` | transparent cut-out — the hero car that floats free |
+| `assets/textures/<id>.jpg` | the world — grounds, skies, surfaces, macro detail |
+| `assets/cars/<slug>.jpg` | optional per-car photograph |
+| `assets/cars/<slug>-cutout.png` | optional transparent cut-out for the hero slot |
 
-Slugs are the `slug` field in `src/data/cars.js` (e.g. `porsche-911-gt3-rs`).
+Texture ids and the art direction for each are in `src/data/textures.js`; slugs
+are the `slug` field in `src/data/cars.js`.
 
-To pull the rectangular slot from Unsplash automatically, get a free access key
-at <https://unsplash.com/oauth/applications> and run:
+With nothing supplied, every poster falls back to the procedural motifs in
+`src/theme/motifs.js` and renders complete — the committed set is never broken
+by a missing file.
+
+To fill everything automatically instead, with a free key from
+<https://unsplash.com/oauth/applications>:
 
 ```bash
-UNSPLASH_ACCESS_KEY=xxxx npm run photos     # all ten
-UNSPLASH_ACCESS_KEY=xxxx npm run photos 03  # just one
+UNSPLASH_ACCESS_KEY=xxxx npm run photos            # textures + car photos
+UNSPLASH_ACCESS_KEY=xxxx npm run photos textures   # textures only
 npm run render
 ```
 
-Photographer credit lands in `assets/cars/credits.json`. The hero slot needs a
-background-free cut-out, which stock search cannot provide — cut one yourself
-and save it as `<slug>-cutout.png`.
+That takes the top search hit per slot, which is blunt for art direction — the
+shot list is curated and will give better results. Photographer credit lands in
+`credits.json` beside each set.
+
+### Keeping a photograph in the palette
+
+Stock dropped in raw breaks the one-accent-per-poster rule: it arrives with its
+own colour cast and its own contrast. `src/texture.js` exists to prevent that,
+and every layout passes its textures through it:
+
+- `grade` — contrast, brightness and saturation, pushing the frame toward the
+  poster's palette before anything else happens
+- `tint` — a flat wash in the poster's own accent; `multiply` on paper grounds,
+  `screen` or `overlay` on dark ones
+- `duotone` — a real two-colour separation, used on the Mercedes seam and the
+  Land Rover riso plates
+
+If a new texture looks wrong, the fix is almost always a `grade`/`tint` value in
+the layout, not a different photograph.
 
 ## Layout of the code
 
 ```
 src/data/cars.js        the ten posts: copy, specs, accent colour, layout
 src/data/brands.js      manufacturer marks, hand-authored as SVG
+src/data/textures.js    texture manifest — role, search terms, art direction
+src/texture.js          texture resolver + grade / tint / duotone treatments
 src/theme/tokens.js     palettes, type stacks, grain, colour helpers
 src/theme/blocks.js     spec ledger / table / hero numeral
 src/theme/motifs.js     moiré, halftone, dimension lines, streaks, barcode…
@@ -103,6 +136,8 @@ across every layout:
 ## Notes
 
 - Specifications are published manufacturer figures — see `NOTICE.md`.
+- Textures come from Unsplash under the Unsplash Licence: free, commercial use
+  permitted, no attribution required. Credit is recorded anyway.
 - Brand marks are unlicensed reproductions of registered trademarks, for mockup
   use only. **Read `NOTICE.md` before publishing any of this commercially.**
 - Typefaces are Google Fonts, downloaded to `assets/fonts/` and committed so

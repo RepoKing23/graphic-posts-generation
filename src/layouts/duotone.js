@@ -8,6 +8,7 @@ import { INK, FONT, grainLight, alpha, mix } from '../theme/tokens.js';
 import { BRANDS, brandMark } from '../data/brands.js';
 import { specTable, tag } from '../theme/blocks.js';
 import { heroCar } from '../photo.js';
+import { texture } from '../texture.js';
 
 export default function duotone(car) {
   const b = BRANDS[car.brand];
@@ -27,8 +28,20 @@ export default function duotone(car) {
   return `
   <div style="position:absolute;inset:0;background:
     linear-gradient(190deg, ${mix(night, brass, 0.06)}, ${night} 70%);"></div>
+  <!-- Night half: defocused city light. Duotoned to the poster's own two
+       colours so it cannot import a third. -->
+  <div style="position:absolute;left:0;top:0;bottom:0;width:${SEAM}%;overflow:hidden;">
+    ${texture('city-bokeh-night', {
+      duotone: { shadow: night, highlight: mix(brass, '#FFF4DF', 0.4) },
+      grade: { contrast: 1.15, brightness: 0.86 }, opacity: 0.55 })}
+  </div>
   <div style="position:absolute;left:${SEAM}%;top:0;bottom:0;right:0;background:
     linear-gradient(200deg, ${mix(brass, '#F6EEDF', 0.42)}, ${mix(brass, '#6B4E24', 0.32)});"></div>
+  <div style="position:absolute;left:${SEAM}%;top:0;bottom:0;right:0;overflow:hidden;">
+    ${texture('brushed-metal', {
+      grade: { saturate: 0, contrast: 1.12, brightness: 1.05 },
+      tint: { colour: brass, mode: 'multiply', opacity: 0.55 }, opacity: 0.5, blend: 'overlay' })}
+  </div>
   <div style="position:absolute;left:${SEAM}%;top:0;bottom:0;width:2px;background:${brass};"></div>
 
   <!-- masthead spans the seam, inverting as it crosses -->
@@ -44,7 +57,7 @@ export default function duotone(car) {
   </div>
 
   <!-- headline, left of the seam -->
-  <div style="position:absolute;top:190px;left:70px;width:430px;">
+  <div style="position:absolute;top:190px;left:70px;width:392px;">
     ${tag(car.kicker, { color: alpha('#F2EDE3', 0.7), accent: brass })}
     <div style="margin-top:20px;font-family:${FONT.archivo};font-weight:900;font-size:82px;
       line-height:.9;letter-spacing:-.045em;color:#F6F2EA;">${car.model.replace('AMG ', 'AMG<br>')}</div>
@@ -66,7 +79,7 @@ export default function duotone(car) {
   </div>
 
   <!-- foot -->
-  <div style="position:absolute;left:70px;bottom:104px;width:420px;">
+  <div style="position:absolute;left:70px;bottom:104px;width:392px;">
     <div style="font-family:${FONT.archivo};font-weight:900;font-size:96px;line-height:.84;
       letter-spacing:-.05em;color:${brass};">${car.specs[3].v}<span style="font-size:44px;">s</span></div>
     <div style="margin-top:12px;font-family:${FONT.mono};font-size:11px;letter-spacing:.26em;

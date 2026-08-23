@@ -9,6 +9,7 @@ import { BRANDS } from '../data/brands.js';
 import { halftone } from '../theme/motifs.js';
 import { specLedger, tag } from '../theme/blocks.js';
 import { carSVG } from '../theme/silhouettes.js';
+import { texture } from '../texture.js';
 
 export default function halftonePoster(car) {
   const b = BRANDS[car.brand];
@@ -28,6 +29,12 @@ export default function halftonePoster(car) {
 
   return `
   <div style="position:absolute;inset:0;background:${stock};"></div>
+  ${texture('terrain-mud', {
+    // Posterised hard, then knocked back — it becomes the paper the two
+    // plates print onto rather than a photograph in its own right.
+    grade: { contrast: 1.5, saturate: 0.12, brightness: 1.12 },
+    tint: { colour: green, mode: 'multiply', opacity: 0.4 },
+    opacity: 0.24, blend: 'multiply' })}
   <div style="position:absolute;inset:0;${halftone({ color: alpha(ochre, 0.42), pitch: 6.5, dot: 1.85, angle: 15, opacity: 0.42 })}"></div>
   <div style="position:absolute;inset:0;${halftone({ color: alpha(green, 0.34), pitch: 6.5, dot: 1.6, angle: 75, opacity: 0.34 })}"></div>
 

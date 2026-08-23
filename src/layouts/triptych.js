@@ -8,6 +8,7 @@ import { PAPER, INK, FONT, grain, alpha } from '../theme/tokens.js';
 import { BRANDS, brandMark } from '../data/brands.js';
 import { specLedger, tag } from '../theme/blocks.js';
 import { photoPanel, heroCar } from '../photo.js';
+import { textureOr, texture, hasTexture } from '../texture.js';
 
 export default function triptych(car) {
   const b = BRANDS[car.brand];
@@ -18,12 +19,19 @@ export default function triptych(car) {
     { position: '50% 46%', crop: { scale: 2.7, x: -1, y: 1 } },
     { position: '80% 56%', crop: { scale: 3.0, x: -21, y: 5 } },
   ];
+  // Photographic macro if one is present, otherwise a crop of the vector car.
+  const DETAILS = ['detail-headlight', 'detail-wheel', 'detail-grille'];
   const panel = (i) => `
     <div style="flex:1;position:relative;overflow:hidden;background:${PAPER[2]};">
-      ${photoPanel(car, {
+      ${textureOr(DETAILS[i], photoPanel(car, {
         ...CROPS[i],
         plate: `linear-gradient(${168 + i * 8}deg, ${PAPER[1]}, ${PAPER[3]})`,
         body: '#1C1E22',
+      }), {
+        // Pulled well down in saturation so the macros read as one warm set
+        // and never introduce a second hue against the single red accent.
+        grade: { contrast: 1.08, saturate: 0.22, brightness: 1.03 },
+        tint: { colour: PAPER[1], mode: 'soft-light', opacity: 0.55 },
       })}
       <div style="position:absolute;inset:0;
         background:linear-gradient(${PAPER[0]}00 62%, ${alpha(PAPER[0], 0.55)});"></div>
@@ -47,7 +55,13 @@ export default function triptych(car) {
   <div style="position:absolute;top:222px;left:74px;right:74px;height:414px;
     display:flex;gap:9px;">${[0, 1, 2].map(panel).join('')}</div>
 
-  <!-- hero -->
+  <!-- hero, on a photographic sweep when one is available -->
+  ${hasTexture('studio-sweep') ? `<div style="position:absolute;top:640px;left:0;right:0;height:392px;
+    -webkit-mask-image:linear-gradient(180deg, transparent 0%, #000 18%, #000 66%, transparent 100%);
+    mask-image:linear-gradient(180deg, transparent 0%, #000 18%, #000 66%, transparent 100%);">
+    ${texture('studio-sweep', { grade: { saturate: 0.16, contrast: 1.04, brightness: 1.06 },
+      tint: { colour: PAPER[1], mode: 'soft-light', opacity: 0.6 }, opacity: 0.8 })}
+  </div>` : ''}
   <div style="position:absolute;top:604px;left:60px;right:60px;">
     ${heroCar(car, { fill: '#1B1D21', detail: 'rgba(255,255,255,.22)',
       lamp: 'rgba(255,255,255,.34)', glass: 'rgba(160,178,200,.20)',

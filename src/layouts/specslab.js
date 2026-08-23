@@ -7,6 +7,7 @@
 import { PAPER, INK, FONT, grain, alpha } from '../theme/tokens.js';
 import { BRANDS, brandMark } from '../data/brands.js';
 import { heroCar } from '../photo.js';
+import { texture, hasTexture } from '../texture.js';
 
 export default function specslab(car) {
   const b = BRANDS[car.brand];
@@ -29,6 +30,14 @@ export default function specslab(car) {
 
   return `
   <div style="position:absolute;inset:0;background:${PAPER[0]};"></div>
+  ${texture('paper-fibre', { grade: { saturate: 0, contrast: 1.1, brightness: 1.04 },
+    opacity: 0.4, blend: 'multiply' })}
+  ${hasTexture('studio-sweep') ? `<div style="position:absolute;left:${G}px;right:${G}px;
+    bottom:118px;height:330px;">
+    ${texture('studio-sweep', { grade: { saturate: 0.08, contrast: 1.02, brightness: 1.08 }, opacity: 0.6 })}
+    <div style="position:absolute;inset:0;background:
+      linear-gradient(180deg, ${PAPER[0]} 0%, transparent 30%, transparent 66%, ${PAPER[0]} 100%);"></div>
+  </div>` : ''}
   <div style="position:absolute;left:${M}px;right:${M}px;top:0;bottom:0;
     border-left:${hair};border-right:${hair};"></div>
 
