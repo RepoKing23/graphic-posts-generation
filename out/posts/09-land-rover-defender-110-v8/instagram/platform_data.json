@@ -1,0 +1,75 @@
+{
+  "caption": {
+    "text": "Land Rover put a supercharged V8 in the Defender without giving up anything that makes it one.\n\nThirty-five inches of water is a road surface.\n\n· 35.4 inches of wading depth — deeper than most cars are tall at the sill.\n· Air suspension lifts ground clearance to 11.5 inches when the surface stops cooperating.\n· 518 hp from a supercharged 5.0-litre V8, and 4.9 seconds to 60 mph.\n\n2024 Land Rover Defender 110 V8\n518 hp · 461 lb-ft · 0–60 mph in 4.9 sec · 5.0 L supercharged V8\n\nA V8 in a Defender should be excessive. Given where it can take you, it reads as specification.\n\nGround clearance or wading depth — which number would you actually use?\n\n#defender #landrover #overland #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "Land Rover put a supercharged V8 in the Defender without giving up anything that makes it one.\n\nThirty-five inches of water i",
+    "hashtags": [
+      "#defender",
+      "#landrover",
+      "#overland",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 792
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Land Rover Defender 110",
+        "body": "Wade, then arrive. Land Rover put a supercharged V8 in the Defender without giving up anything that makes it one.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "35.4 inches of wading",
+        "body": "35.4 inches of wading depth — deeper than most cars are tall at the sill.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "11.5 inches, on demand",
+        "body": "Air suspension lifts ground clearance to 11.5 inches when the surface stops cooperating.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "518 supercharged horsepower",
+        "body": "518 hp from a supercharged 5.0-litre V8, and 4.9 seconds to 60 mph.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "Arriving dry",
+        "body": "The party trick isn't the speed. It's arriving dry, having taken the direct route.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "518 hp / 461 lb-ft / 5.0 L supercharged V8 / 0–60 mph in 4.9 sec / 35.4 in / 11.5 in",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "A V8 in a Defender should be excessive. Given where it can take you, it reads as specification. Ground clearance or wading depth — which number would you actually use?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

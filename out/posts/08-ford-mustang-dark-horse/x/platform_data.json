@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.\n\n500 hp · 418 lb-ft · 0–60 mph in 4.1 sec\n\n#Mustang #DarkHorse",
+    "char_count": 146,
+    "hashtags": [
+      "#Mustang",
+      "#DarkHorse"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "Five litres, eight cylinders, no turbochargers, no apology.\n\n2025 Ford Mustang Dark Horse.",
+        "char_count": 90
+      },
+      {
+        "number": 2,
+        "text": "500 hp at 7,250 rpm, naturally aspirated — the most powerful non-supercharged Mustang sold.",
+        "char_count": 91
+      },
+      {
+        "number": 3,
+        "text": "A Tremec six-speed manual, in a market that has quietly stopped offering them.",
+        "char_count": 78
+      },
+      {
+        "number": 4,
+        "text": "Forged connecting rods carried over from the GT500, because 7,250 rpm asks for them.",
+        "char_count": 84
+      },
+      {
+        "number": 5,
+        "text": "4.1 seconds to 60 mph and 166 mph, with nothing between your right foot and the intake.",
+        "char_count": 87
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 500 hp · 418 lb-ft · 5.0 L Coyote V8 · 0–60 mph in 4.1 sec · 166 mph · 6 spd Tremec.",
+        "char_count": 97
+      },
+      {
+        "number": 7,
+        "text": "Naturally aspirated V8s are on a clock. This one is worth hearing before it runs out.",
+        "char_count": 85
+      },
+      {
+        "number": 8,
+        "text": "Turbocharged and quicker, or naturally aspirated and this?\n\n#Mustang #DarkHorse",
+        "char_count": 79
+      }
+    ]
+  }
+}

@@ -11,7 +11,13 @@
  */
 import { FONT } from '../theme/tokens.js';
 
-/** `mono` overrides every colour in a mark, for placing it on a dark field. */
+/**
+ * `mono` overrides every colour in a mark, for placing it on a dark field.
+ *
+ * `lettered: true` marks the three that set the manufacturer's name as type
+ * rather than as a symbol. A masthead that pairs a mark with the brand name
+ * has to check it, or the Porsche card reads "PORSCHE PORSCHE".
+ */
 const svg = (vb, body, h, style = '') =>
   `<svg viewBox="${vb}" height="${h}" style="display:block;overflow:visible;${style}"
      xmlns="http://www.w3.org/2000/svg" fill="none">${body}</svg>`;
@@ -40,13 +46,22 @@ export const BRANDS = {
   bmw: {
     name: 'BMW', color: '#0066B1',
     wordmark: { font: FONT.archivo, weight: 700, track: 0.12 },
-    mark: (h, c) => svg('0 0 100 100', `
-      <circle cx="50" cy="50" r="49" fill="${c || '#101418'}"/>
-      <path d="M50 50 L50 12 A38 38 0 0 1 88 50 Z" fill="${c ? 'none' : '#0066B1'}" opacity="${c ? 0 : 1}"/>
-      <path d="M50 50 L50 88 A38 38 0 0 1 12 50 Z" fill="${c ? 'none' : '#0066B1'}" opacity="${c ? 0 : 1}"/>
-      <path d="M50 50 L12 50 A38 38 0 0 1 50 12 Z" fill="${c ? '#FFF' : '#FFF'}" opacity="${c ? 0.9 : 1}"/>
-      <path d="M50 50 L88 50 A38 38 0 0 1 50 88 Z" fill="#FFF" opacity="${c ? 0.9 : 1}"/>
-      <circle cx="50" cy="50" r="38" stroke="${c || '#101418'}" stroke-width="3" fill="none"/>`, h),
+    // Mono mode is a separate drawing, not the colour version with one hex
+    // swapped: filling the outer disc AND the quadrants in the same colour
+    // collapsed the roundel into a solid dot on any dark ground.
+    mark: (h, c) => (c
+      ? svg('0 0 100 100', `
+        <circle cx="50" cy="50" r="47" stroke="${c}" stroke-width="6" fill="none"/>
+        <circle cx="50" cy="50" r="38" stroke="${c}" stroke-width="3" fill="none"/>
+        <path d="M50 50 L50 12 A38 38 0 0 1 88 50 Z" fill="${c}" opacity=".85"/>
+        <path d="M50 50 L50 88 A38 38 0 0 1 12 50 Z" fill="${c}" opacity=".85"/>`, h)
+      : svg('0 0 100 100', `
+        <circle cx="50" cy="50" r="49" fill="#101418"/>
+        <path d="M50 50 L50 12 A38 38 0 0 1 88 50 Z" fill="#0066B1"/>
+        <path d="M50 50 L50 88 A38 38 0 0 1 12 50 Z" fill="#0066B1"/>
+        <path d="M50 50 L12 50 A38 38 0 0 1 50 12 Z" fill="#FFF"/>
+        <path d="M50 50 L88 50 A38 38 0 0 1 50 88 Z" fill="#FFF"/>
+        <circle cx="50" cy="50" r="38" stroke="#101418" stroke-width="3" fill="none"/>`, h)),
   },
 
   mercedes: {
@@ -60,7 +75,7 @@ export const BRANDS = {
   },
 
   porsche: {
-    name: 'Porsche', color: '#B12B28',
+    name: 'Porsche', lettered: true, color: '#B12B28',
     wordmark: { font: FONT.archivo, weight: 500, track: 0.3 },
     mark: (h, c) => svg('0 0 300 46', `
       <text x="150" y="35" text-anchor="middle" font-family="${FONT.archivo}" font-weight="500"
@@ -68,7 +83,7 @@ export const BRANDS = {
   },
 
   ford: {
-    name: 'Ford', color: '#1B3D8F',
+    name: 'Ford', lettered: true, color: '#1B3D8F',
     wordmark: { font: FONT.script, weight: 400, track: 0 },
     mark: (h, c) => svg('0 0 210 88', `
       <ellipse cx="105" cy="44" rx="103" ry="42" fill="${c || '#1B3D8F'}"/>
@@ -79,7 +94,7 @@ export const BRANDS = {
   },
 
   landrover: {
-    name: 'Land Rover', color: '#005A2B',
+    name: 'Land Rover', lettered: true, color: '#005A2B',
     wordmark: { font: FONT.archivo, weight: 600, track: 0.24 },
     mark: (h, c) => svg('0 0 230 62', `
       <ellipse cx="115" cy="31" rx="113" ry="29" fill="${c || '#005A2B'}"/>

@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "BMW answered 717 horsepower with an electric motor inside the gearbox.\n\n717 hp combined · 738 lb-ft · 0–60 mph in 3.4 sec\n\n#BMWM5 #Hybrid",
+    "char_count": 137,
+    "hashtags": [
+      "#BMWM5",
+      "#Hybrid"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "Seven hundred and seventeen horsepower, in a saloon with a boot.\n\n2025 BMW M5 G90.",
+        "char_count": 82
+      },
+      {
+        "number": 2,
+        "text": "717 hp combined and 738 lb-ft — a figure that needs both the V8 and the motor to reach it.",
+        "char_count": 90
+      },
+      {
+        "number": 3,
+        "text": "3.4 seconds to 60 mph, and 190 mph with the M Driver’s Package.",
+        "char_count": 63
+      },
+      {
+        "number": 4,
+        "text": "25 miles of electric range: the school run and the commute, without the V8 waking up.",
+        "char_count": 85
+      },
+      {
+        "number": 5,
+        "text": "M xDrive sends it to all four wheels, and still lets you take the front axle out of the equation.",
+        "char_count": 97
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 717 hp combined · 738 lb-ft · 0–60 mph in 3.4 sec · 190 mph · 25 mi range · AWD M xDrive.",
+        "char_count": 102
+      },
+      {
+        "number": 7,
+        "text": "The hybrid isn't the compromise here. It's the part that makes 717 hp liveable.",
+        "char_count": 79
+      },
+      {
+        "number": 8,
+        "text": "Is a 717 hp plug-in hybrid still an M5 to you?\n\n#BMWM5 #Hybrid",
+        "char_count": 62
+      }
+    ]
+  }
+}

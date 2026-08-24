@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.\n\nA grand tourer that forgot to be comfortable about it.\n\n· 577 hp and 590 lb-ft from a hand-assembled 4.0-litre biturbo V8.\n· 3.1 seconds to 60 mph and 196 mph, through 4MATIC+ all-wheel drive.\n· Rear-axle steering and active roll stabilisation, on a car sold as a tourer.\n\n2025 Mercedes-Benz AMG GT 63 4MATIC+\n577 hp · 590 lb-ft · 0–60 mph in 3.1 sec · 4.0 L biturbo V8\n\nTwo natures, and AMG refused to pick one. That's the whole appeal.\n\nGrand tourer or sports car — which one did they actually build?\n\n#amggt #mercedes #grandtourer #mercedesbenz #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.\n\nA grand tourer that f",
+    "hashtags": [
+      "#amggt",
+      "#mercedes",
+      "#grandtourer",
+      "#mercedesbenz",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 763
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Mercedes-Benz AMG GT 63",
+        "body": "Two natures. AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "577 hp, built by hand",
+        "body": "577 hp and 590 lb-ft from a hand-assembled 4.0-litre biturbo V8.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "3.1 seconds, 196 mph",
+        "body": "3.1 seconds to 60 mph and 196 mph, through 4MATIC+ all-wheel drive.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "Rear steering on a tourer",
+        "body": "Rear-axle steering and active roll stabilisation, on a car sold as a tourer.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "Two seats nobody expected",
+        "body": "Two seats in the back this time, which nobody expected and everybody uses.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "577 hp / 590 lb-ft / 4.0 L biturbo V8 / 0–60 mph in 3.1 sec / 196 mph / AWD 4MATIC+",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "Two natures, and AMG refused to pick one. That's the whole appeal. Grand tourer or sports car — which one did they actually build?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

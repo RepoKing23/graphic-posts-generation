@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.\n\nUnder two seconds to sixty, with the roof rack still fitted.\n\n· 1,020 hp from three motors, and a quarter mile in 9.23 seconds.\n· 1.99 seconds to 60 mph — with rollout subtracted, which is the footnote that starts every argument.\n· 359 miles EPA range, from the same car that will run a nine-second pass.\n\n2025 Tesla Model S Plaid\n1020 hp · 0–60 mph in 1.99 sec* · 200 mph · 359 mi EPA\n\nThe asterisk is fair game. The nine-second quarter mile, from a five-seat saloon, isn't.\n\nDoes rollout belong in a 0–60 time?\n\n#models #plaid #ev #tesla #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.\n\nUnder two seconds to sixty, wi",
+    "hashtags": [
+      "#models",
+      "#plaid",
+      "#ev",
+      "#tesla",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 746
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Tesla Model S",
+        "body": "Delivery ticket. A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "1,020 hp, three motors",
+        "body": "1,020 hp from three motors, and a quarter mile in 9.23 seconds.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "1.99 seconds*",
+        "body": "1.99 seconds to 60 mph — with rollout subtracted, which is the footnote that starts every argument.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "359 miles, the same car",
+        "body": "359 miles EPA range, from the same car that will run a nine-second pass.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "200 mph, with a boot",
+        "body": "200 mph, in something with a boot at each end.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "1020 hp / 0–60 mph in 1.99 sec* / 200 mph / 359 mi EPA / 9.23 sec / AWD tri-motor",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "The asterisk is fair game. The nine-second quarter mile, from a five-seat saloon, isn't. Does rollout belong in a 0–60 time?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

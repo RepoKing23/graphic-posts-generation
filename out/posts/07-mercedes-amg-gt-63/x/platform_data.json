@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.\n\n577 hp · 590 lb-ft · 0–60 mph in 3.1 sec\n\n#AMGGT #Mercedes",
+    "char_count": 162,
+    "hashtags": [
+      "#AMGGT",
+      "#Mercedes"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "A grand tourer that forgot to be comfortable about it.\n\n2025 Mercedes-Benz AMG GT 63 4MATIC+.",
+        "char_count": 93
+      },
+      {
+        "number": 2,
+        "text": "577 hp and 590 lb-ft from a hand-assembled 4.0-litre biturbo V8.",
+        "char_count": 64
+      },
+      {
+        "number": 3,
+        "text": "3.1 seconds to 60 mph and 196 mph, through 4MATIC+ all-wheel drive.",
+        "char_count": 67
+      },
+      {
+        "number": 4,
+        "text": "Rear-axle steering and active roll stabilisation, on a car sold as a tourer.",
+        "char_count": 76
+      },
+      {
+        "number": 5,
+        "text": "Two seats in the back this time, which nobody expected and everybody uses.",
+        "char_count": 74
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 577 hp · 590 lb-ft · 4.0 L biturbo V8 · 0–60 mph in 3.1 sec · 196 mph · AWD 4MATIC+.",
+        "char_count": 97
+      },
+      {
+        "number": 7,
+        "text": "Two natures, and AMG refused to pick one. That's the whole appeal.",
+        "char_count": 66
+      },
+      {
+        "number": 8,
+        "text": "Grand tourer or sports car — which one did they actually build?\n\n#AMGGT #Mercedes",
+        "char_count": 81
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "BMW answered 717 horsepower with an electric motor inside the gearbox.\n\nSeven hundred and seventeen horsepower, in a saloon with a boot.\n\n· 717 hp combined and 738 lb-ft — a figure that needs both the V8 and the motor to reach it.\n· 3.4 seconds to 60 mph, and 190 mph with the M Driver’s Package.\n· 25 miles of electric range: the school run and the commute, without the V8 waking up.\n\n2025 BMW M5 G90\n717 hp combined · 738 lb-ft · 0–60 mph in 3.4 sec · 190 mph\n\nThe hybrid isn't the compromise here. It's the part that makes 717 hp liveable.\n\nIs a 717 hp plug-in hybrid still an M5 to you?\n\n#bmwm5 #hybrid #performancesedan #bmw #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "BMW answered 717 horsepower with an electric motor inside the gearbox.\n\nSeven hundred and seventeen horsepower, in a saloon w",
+    "hashtags": [
+      "#bmwm5",
+      "#hybrid",
+      "#performancesedan",
+      "#bmw",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 741
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "BMW M5",
+        "body": "The numbers. BMW answered 717 horsepower with an electric motor inside the gearbox.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "717 hp combined",
+        "body": "717 hp combined and 738 lb-ft — a figure that needs both the V8 and the motor to reach it.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "3.4 seconds, 190 mph",
+        "body": "3.4 seconds to 60 mph, and 190 mph with the M Driver’s Package.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "25 silent miles",
+        "body": "25 miles of electric range: the school run and the commute, without the V8 waking up.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "All four wheels, when asked",
+        "body": "M xDrive sends it to all four wheels, and still lets you take the front axle out of the equation.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "717 hp combined / 738 lb-ft / 0–60 mph in 3.4 sec / 190 mph / 25 mi range / AWD M xDrive",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "The hybrid isn't the compromise here. It's the part that makes 717 hp liveable. Is a 717 hp plug-in hybrid still an M5 to you?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

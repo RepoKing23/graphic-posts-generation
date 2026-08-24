@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Art-directed car spec social posts, rendered from code to 1080x1350 PNG.",
+  "description": "Art-directed car spec posters, and the LinkedIn, Instagram and X posts derived from them.",
   "scripts": {
     "fonts": "node scripts/fetch-fonts.mjs",
     "photos": "node scripts/fetch-photos.mjs",
     "render": "node src/render.mjs",
-    "build": "npm run fonts && npm run render"
+    "posts": "node src/posts.mjs",
+    "build": "npm run fonts && npm run posts"
   },
   "dependencies": {
     "playwright-core": "^1.56.0"

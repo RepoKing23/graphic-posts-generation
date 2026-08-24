@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.\n\n641 hp · 568 lb-ft · 0–60 mph in 3.25 sec\n\n#IONIQ5N #EV",
+    "char_count": 149,
+    "hashtags": [
+      "#IONIQ5N",
+      "#EV"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "641 horsepower, and a simulated eight-speed shift you don't need.\n\n2025 Hyundai IONIQ 5 N Dual Motor AWD.",
+        "char_count": 105
+      },
+      {
+        "number": 2,
+        "text": "641 hp and 568 lb-ft, which is 3.25 seconds to 60 mph in a family-shaped crossover.",
+        "char_count": 83
+      },
+      {
+        "number": 3,
+        "text": "N e-Shift simulates eight ratios: torque is cut and restored so a shift you can feel arrives where a shift never happens.",
+        "char_count": 121
+      },
+      {
+        "number": 4,
+        "text": "84 kWh and 350 kW peak charging, with thermal management aimed at consecutive laps rather than a single quick one.",
+        "char_count": 114
+      },
+      {
+        "number": 5,
+        "text": "221 miles EPA — the number that pays for all of the above, quoted rather than buried.",
+        "char_count": 85
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 641 hp · 568 lb-ft · 0–60 mph in 3.25 sec · 84.0 kWh · 221 mi EPA · 350 kW peak.",
+        "char_count": 93
+      },
+      {
+        "number": 7,
+        "text": "Simulated shifts read as a gimmick until you notice every car already simulates its feedback.",
+        "char_count": 93
+      },
+      {
+        "number": 8,
+        "text": "Fake gears in an EV: engineering, or theatre?\n\n#IONIQ5N #EV",
+        "char_count": 59
+      }
+    ]
+  }
+}

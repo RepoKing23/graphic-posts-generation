@@ -1,5 +1,8 @@
-/** Contact sheet — all ten posters on one page, with photo coverage noted. */
-import { writeFile } from 'node:fs/promises';
+/** Contact sheet — all ten posters on one page, with photo coverage noted.
+ *
+ *  Each poster is also the source article for three derived social posts; when
+ *  those have been generated the sheet links through to their own board. */
+import { writeFile, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { CARS } from './data/cars.js';
@@ -11,6 +14,7 @@ import { textureCoverage } from './texture.js';
  *  otherwise `npm run render 03` leaves a contact sheet with one poster on it. */
 export async function buildGallery(_written, outDir) {
   const tex = textureCoverage();
+  const posts = await countPosts(outDir);
   const haveTex = tex.filter((t) => t.present).length;
   const cards = CARS
     .map((car) => ({ car, file: `${car.id}-${car.slug}.png` }))
@@ -42,6 +46,7 @@ figure{margin:0;}
 img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:2px;}
 figcaption{display:flex;justify-content:space-between;gap:12px;margin-top:10px;
   font-size:12.5px;letter-spacing:.02em;}
+a{color:inherit;}
 figcaption span{color:var(--mut);text-transform:uppercase;letter-spacing:.12em;font-size:11px;
   white-space:nowrap;align-self:center;}
 </style>
@@ -51,7 +56,20 @@ poster is vector by design; photography supplies the world around it.
 <b>${haveTex} of ${tex.length} textures present.</b>
 ${haveTex === tex.length ? '' : `Missing: <code>${tex.filter((t) => !t.present).map((t) => t.id).join('</code> <code>')}</code>.
 See <code>SHOTLIST.md</code>, drop them in <code>assets/textures/</code>, re-run <code>npm run render</code>.`}</p>
+${posts ? `<p class="sub"><b>${posts} derived social post(s)</b> — LinkedIn, Instagram and X,
+planned, drafted, reviewed and finalised from these posters.
+See the <a href="posts/index.html">post board</a>, or <code>out/articles.json</code>.</p>` : ''}
 <div class="grid">${cards}</div>`;
 
   await writeFile(path.join(outDir, 'index.html'), html);
+}
+
+/** How many derived posts exist, from the manifest npm run posts writes. */
+async function countPosts(outDir) {
+  try {
+    const rows = JSON.parse(await readFile(path.join(outDir, 'articles.json'), 'utf8'));
+    return rows.filter((r) => r.kind === 'post').length;
+  } catch {
+    return 0;   // posters can be rendered without ever generating posts
+  }
 }

@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.\n\nFive litres, eight cylinders, no turbochargers, no apology.\n\n· 500 hp at 7,250 rpm, naturally aspirated — the most powerful non-supercharged Mustang sold.\n· A Tremec six-speed manual, in a market that has quietly stopped offering them.\n· Forged connecting rods carried over from the GT500, because 7,250 rpm asks for them.\n\n2025 Ford Mustang Dark Horse\n500 hp · 418 lb-ft · 0–60 mph in 4.1 sec · 5.0 L Coyote V8\n\nNaturally aspirated V8s are on a clock. This one is worth hearing before it runs out.\n\nTurbocharged and quicker, or naturally aspirated and this?\n\n#mustang #darkhorse #v8 #ford #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.\n\nFive litres, eight cylinders, no turboch",
+    "hashtags": [
+      "#mustang",
+      "#darkhorse",
+      "#v8",
+      "#ford",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 786
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Ford Mustang",
+        "body": "Still naturally aspirated. Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "500 hp, no turbochargers",
+        "body": "500 hp at 7,250 rpm, naturally aspirated — the most powerful non-supercharged Mustang sold.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "A manual, still",
+        "body": "A Tremec six-speed manual, in a market that has quietly stopped offering them.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "GT500 connecting rods",
+        "body": "Forged connecting rods carried over from the GT500, because 7,250 rpm asks for them.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "4.1 seconds, unfiltered",
+        "body": "4.1 seconds to 60 mph and 166 mph, with nothing between your right foot and the intake.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "500 hp / 418 lb-ft / 5.0 L Coyote V8 / 0–60 mph in 4.1 sec / 166 mph / 6 spd Tremec",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "Naturally aspirated V8s are on a clock. This one is worth hearing before it runs out. Turbocharged and quicker, or naturally aspirated and this?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

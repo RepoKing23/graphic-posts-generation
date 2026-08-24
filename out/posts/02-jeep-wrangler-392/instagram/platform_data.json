@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.\n\nA 6.4-litre V8 where the four-cylinder used to be.\n\n· 470 hp and 470 lb-ft — an unusually square power and torque figure — under a removable roof.\n· 4.5 seconds to 60 mph, in a vehicle with a live axle at each end.\n· Sway-bar disconnect and lockers front and rear survive the V8 intact.\n\n2024 Jeep Wrangler Rubicon 392\n470 hp · 470 lb-ft · 0–60 mph in 4.5 sec · 6.4 L HEMI V8\n\nEfficiency was never the brief. A Wrangler that runs 4.5 to 60 is the brief.\n\nLast of the V8 Wranglers, or the one they should have started with?\n\n#wrangler #v8 #offroad #jeep #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.\n\nA 6.4-litre V8 where the four-cylinder us",
+    "hashtags": [
+      "#wrangler",
+      "#v8",
+      "#offroad",
+      "#jeep",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 748
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Jeep Wrangler",
+        "body": "There's only one. Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "470 and 470",
+        "body": "470 hp and 470 lb-ft — an unusually square power and torque figure — under a removable roof.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "4.5 seconds, in a brick",
+        "body": "4.5 seconds to 60 mph, in a vehicle with a live axle at each end.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "Nothing was traded away",
+        "body": "Sway-bar disconnect and lockers front and rear survive the V8 intact.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "32.5 inches of water",
+        "body": "32.5 inches of fording depth and 10.3 inches of clearance: the trail hardware was never traded away for the engine.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "470 hp / 470 lb-ft / 6.4 L HEMI V8 / 0–60 mph in 4.5 sec / 10.3 in / 32.5 in",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "Efficiency was never the brief. A Wrangler that runs 4.5 to 60 is the brief. Last of the V8 Wranglers, or the one they should have started with?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

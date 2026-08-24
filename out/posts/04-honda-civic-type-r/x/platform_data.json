@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.\n\n315 hp · 310 lb-ft · 0–60 mph in 5.0 sec\n\n#CivicTypeR #FWD",
+    "char_count": 152,
+    "hashtags": [
+      "#CivicTypeR",
+      "#FWD"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "The front-wheel-drive benchmark, sharpened again.\n\n2025 Honda Civic Type R FL5.",
+        "char_count": 79
+      },
+      {
+        "number": 2,
+        "text": "315 hp through the front axle alone, held by a helical limited-slip differential.",
+        "char_count": 81
+      },
+      {
+        "number": 3,
+        "text": "Dual-axis front struts separate steering from suspension load, which is why the power doesn't tug at the wheel.",
+        "char_count": 111
+      },
+      {
+        "number": 4,
+        "text": "169 mph and 5.0 seconds to 60 mph, with three pedals and no automatic offered.",
+        "char_count": 78
+      },
+      {
+        "number": 5,
+        "text": "Damping developed at the Nürburgring, and a rev-match you are allowed to switch off.",
+        "char_count": 84
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 315 hp · 310 lb-ft · 2.0 L VTEC turbo · 0–60 mph in 5.0 sec · 169 mph · FWD 6-spd manual.",
+        "char_count": 102
+      },
+      {
+        "number": 7,
+        "text": "The front-wheel-drive ceiling keeps moving, and it's Honda that keeps moving it.",
+        "char_count": 80
+      },
+      {
+        "number": 8,
+        "text": "Has front-wheel drive hit its ceiling, or has Honda just raised it again?\n\n#CivicTypeR #FWD",
+        "char_count": 91
+      }
+    ]
+  }
+}

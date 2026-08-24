@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "Toyota built a rally car for the road, then refused to sell it with an automatic.\n\nThree cylinders. Three exhausts. One very serious hatchback.\n\n· 300 hp from 1.6 litres is 187 hp per litre — specific output usually reserved for engines with twice the cylinder count.\n· The centre exhaust is a working outlet, not a trim panel with a hole in it.\n· GR-FOUR all-wheel drive comes from the same programme Toyota goes rallying with.\n\n2024 Toyota GR Corolla Circuit Edition\n300 hp · 273 lb-ft · 0–60 mph in 4.9 sec · 1.6 L turbo I3\n\nIt's the most interesting car Toyota sells, and the one nobody cross-shops.\n\nWould you take 300 hp from three cylinders over 300 hp from four?\n\n#grcorolla #hothatch #manualgearbox #toyota #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "Toyota built a rally car for the road, then refused to sell it with an automatic.\n\nThree cylinders. Three exhausts. One very ",
+    "hashtags": [
+      "#grcorolla",
+      "#hothatch",
+      "#manualgearbox",
+      "#toyota",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 827
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Toyota GR Corolla",
+        "body": "Rally-bred, road-legal. Toyota built a rally car for the road, then refused to sell it with an automatic.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "300 hp from 1.6 litres",
+        "body": "300 hp from 1.6 litres is 187 hp per litre — specific output usually reserved for engines with twice the cylinder count.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "Three pipes, all real",
+        "body": "The centre exhaust is a working outlet, not a trim panel with a hole in it.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "Rally hardware, road plates",
+        "body": "GR-FOUR all-wheel drive comes from the same programme Toyota goes rallying with.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "No automatic. At all.",
+        "body": "Six-speed manual, and no automatic offered at any price.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "300 hp / 273 lb-ft / 1.6 L turbo I3 / 0–60 mph in 4.9 sec / AWD GR-FOUR / 6 spd manual",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "It's the most interesting car Toyota sells, and the one nobody cross-shops. Would you take 300 hp from three cylinders over 300 hp from four?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

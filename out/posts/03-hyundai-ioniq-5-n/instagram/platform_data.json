@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.\n\n641 horsepower, and a simulated eight-speed shift you don't need.\n\n· 641 hp and 568 lb-ft, which is 3.25 seconds to 60 mph in a family-shaped crossover.\n· N e-Shift simulates eight ratios: torque is cut and restored so a shift you can feel arrives where a shift never happens.\n· 84 kWh and 350 kW peak charging, with thermal management aimed at consecutive laps rather than a single quick one.\n\n2025 Hyundai IONIQ 5 N Dual Motor AWD\n641 hp · 568 lb-ft · 0–60 mph in 3.25 sec · 84.0 kWh\n\nSimulated shifts read as a gimmick until you notice every car already simulates its feedback.\n\nFake gears in an EV: engineering, or theatre?\n\n#ioniq5n #ev #hyundain #hyundai #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.\n\n641 horsepower, and a simulated",
+    "hashtags": [
+      "#ioniq5n",
+      "#ev",
+      "#hyundain",
+      "#hyundai",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 866
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Hyundai IONIQ 5 N",
+        "body": "Cancel the noise. Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "641 hp, 3.25 seconds",
+        "body": "641 hp and 568 lb-ft, which is 3.25 seconds to 60 mph in a family-shaped crossover.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "Eight gears that are not there",
+        "body": "N e-Shift simulates eight ratios: torque is cut and restored so a shift you can feel arrives where a shift never happens.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "350 kW, lap after lap",
+        "body": "84 kWh and 350 kW peak charging, with thermal management aimed at consecutive laps rather than a single quick one.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "221 miles, stated plainly",
+        "body": "221 miles EPA — the number that pays for all of the above, quoted rather than buried.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "641 hp / 568 lb-ft / 0–60 mph in 3.25 sec / 84.0 kWh / 221 mi EPA / 350 kW peak",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "Simulated shifts read as a gimmick until you notice every car already simulates its feedback. Fake gears in an EV: engineering, or theatre?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

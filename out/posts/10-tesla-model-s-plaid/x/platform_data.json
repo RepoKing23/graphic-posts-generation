@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.\n\n1020 hp · 0–60 mph in 1.99 sec* · 200 mph\n\n#ModelS #Plaid",
+    "char_count": 152,
+    "hashtags": [
+      "#ModelS",
+      "#Plaid"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "Under two seconds to sixty, with the roof rack still fitted.\n\n2025 Tesla Model S Plaid.",
+        "char_count": 87
+      },
+      {
+        "number": 2,
+        "text": "1,020 hp from three motors, and a quarter mile in 9.23 seconds.",
+        "char_count": 63
+      },
+      {
+        "number": 3,
+        "text": "1.99 seconds to 60 mph — with rollout subtracted, which is the footnote that starts every argument.",
+        "char_count": 99
+      },
+      {
+        "number": 4,
+        "text": "359 miles EPA range, from the same car that will run a nine-second pass.",
+        "char_count": 72
+      },
+      {
+        "number": 5,
+        "text": "200 mph, in something with a boot at each end.",
+        "char_count": 46
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 1020 hp · 0–60 mph in 1.99 sec* · 200 mph · 359 mi EPA · 9.23 sec · AWD tri-motor.",
+        "char_count": 95
+      },
+      {
+        "number": 7,
+        "text": "The asterisk is fair game. The nine-second quarter mile, from a five-seat saloon, isn't.",
+        "char_count": 88
+      },
+      {
+        "number": 8,
+        "text": "Does rollout belong in a 0–60 time?\n\n#ModelS #Plaid",
+        "char_count": 51
+      }
+    ]
+  }
+}

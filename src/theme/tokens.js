@@ -99,6 +99,19 @@ export function mix(a, b, t) {
   return `#${c(r1, r2)}${c(g1, g2)}${c(b1, b2)}`;
 }
 
+/** Perceived lightness of a colour, 0..1 — sRGB coefficients, no gamma step,
+ *  which is accurate enough to decide black type or white on an accent. */
+export function luminance(hex) {
+  const [r, g, b] = channels(hex).map((c) => c / 255);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+/** Type colour for a field of `hex`. The set's accents run from #7FD4FF to
+ *  #005A2B, so no single answer works and every layout that fills with an
+ *  accent asks this instead of guessing. */
+export const onColor = (hex, dark = INK, light = '#FFFFFF') =>
+  (luminance(hex) > 0.55 ? dark : light);
+
 export const alpha = (hex, a) => {
   const [r, g, b] = channels(hex);
   return `rgba(${r},${g},${b},${a})`;

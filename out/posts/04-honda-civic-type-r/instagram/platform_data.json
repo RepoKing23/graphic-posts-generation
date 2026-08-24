@@ -1,0 +1,76 @@
+{
+  "caption": {
+    "text": "Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.\n\nThe front-wheel-drive benchmark, sharpened again.\n\n· 315 hp through the front axle alone, held by a helical limited-slip differential.\n· Dual-axis front struts separate steering from suspension load, which is why the power doesn't tug at the wheel.\n· 169 mph and 5.0 seconds to 60 mph, with three pedals and no automatic offered.\n\n2025 Honda Civic Type R FL5\n315 hp · 310 lb-ft · 0–60 mph in 5.0 sec · 2.0 L VTEC turbo\n\nThe front-wheel-drive ceiling keeps moving, and it's Honda that keeps moving it.\n\nHas front-wheel drive hit its ceiling, or has Honda just raised it again?\n\n#civictyper #fwd #vtec #honda #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+    "visible_preview": "Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.\n\nThe front-wheel-drive benchmark",
+    "hashtags": [
+      "#civictyper",
+      "#fwd",
+      "#vtec",
+      "#honda",
+      "#carspecs",
+      "#automotivedesign",
+      "#cars",
+      "#carsofinstagram",
+      "#automotive",
+      "#cardesign",
+      "#specsheet",
+      "#graphicdesign",
+      "#typography"
+    ],
+    "char_count": 812
+  },
+  "carousel": {
+    "slide_count": 7,
+    "slides": [
+      {
+        "number": 1,
+        "kind": "cover",
+        "title": "Honda Civic Type R",
+        "body": "Experience. Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.",
+        "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+      },
+      {
+        "number": 2,
+        "kind": "point",
+        "title": "315 hp, front wheels only",
+        "body": "315 hp through the front axle alone, held by a helical limited-slip differential.",
+        "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 3,
+        "kind": "point",
+        "title": "Steering, kept separate",
+        "body": "Dual-axis front struts separate steering from suspension load, which is why the power doesn't tug at the wheel.",
+        "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 4,
+        "kind": "point",
+        "title": "169 mph, three pedals",
+        "body": "169 mph and 5.0 seconds to 60 mph, with three pedals and no automatic offered.",
+        "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 5,
+        "kind": "point",
+        "title": "Tuned at the Nürburgring",
+        "body": "Damping developed at the Nürburgring, and a rev-match you are allowed to switch off.",
+        "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+      },
+      {
+        "number": 6,
+        "kind": "specs",
+        "title": "The numbers",
+        "body": "315 hp / 310 lb-ft / 2.0 L VTEC turbo / 0–60 mph in 5.0 sec / 169 mph / FWD 6-spd manual",
+        "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+      },
+      {
+        "number": 7,
+        "kind": "closer",
+        "title": "Over to you",
+        "body": "The front-wheel-drive ceiling keeps moving, and it's Honda that keeps moving it. Has front-wheel drive hit its ceiling, or has Honda just raised it again?",
+        "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+      }
+    ]
+  }
+}

@@ -1,0 +1,2460 @@
+[
+  {
+    "id": "01",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "toyota-gr-corolla",
+    "output_folder": "out",
+    "output_files": {
+      "image": "01-toyota-gr-corolla.png"
+    }
+  },
+  {
+    "id": "02",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "jeep-wrangler-392",
+    "output_folder": "out",
+    "output_files": {
+      "image": "02-jeep-wrangler-392.png"
+    }
+  },
+  {
+    "id": "03",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "hyundai-ioniq-5-n",
+    "output_folder": "out",
+    "output_files": {
+      "image": "03-hyundai-ioniq-5-n.png"
+    }
+  },
+  {
+    "id": "04",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "honda-civic-type-r",
+    "output_folder": "out",
+    "output_files": {
+      "image": "04-honda-civic-type-r.png"
+    }
+  },
+  {
+    "id": "05",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "porsche-911-gt3-rs",
+    "output_folder": "out",
+    "output_files": {
+      "image": "05-porsche-911-gt3-rs.png"
+    }
+  },
+  {
+    "id": "06",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "bmw-m5",
+    "output_folder": "out",
+    "output_files": {
+      "image": "06-bmw-m5.png"
+    }
+  },
+  {
+    "id": "07",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "mercedes-amg-gt-63",
+    "output_folder": "out",
+    "output_files": {
+      "image": "07-mercedes-amg-gt-63.png"
+    }
+  },
+  {
+    "id": "08",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "ford-mustang-dark-horse",
+    "output_folder": "out",
+    "output_files": {
+      "image": "08-ford-mustang-dark-horse.png"
+    }
+  },
+  {
+    "id": "09",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "land-rover-defender-110-v8",
+    "output_folder": "out",
+    "output_files": {
+      "image": "09-land-rover-defender-110-v8.png"
+    }
+  },
+  {
+    "id": "10",
+    "kind": "source",
+    "platform": null,
+    "derived_from": null,
+    "status": "rendered",
+    "slug": "tesla-model-s-plaid",
+    "output_folder": "out",
+    "output_files": {
+      "image": "10-tesla-model-s-plaid.png"
+    }
+  },
+  {
+    "id": "01-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "01",
+    "status": "draft",
+    "language": "en",
+    "slug": "toyota-gr-corolla",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/01-toyota-gr-corolla/linkedin",
+    "output_files": {
+      "en": [
+        "toyota-gr-corolla.linkedin.en.md"
+      ],
+      "images": [
+        "toyota-gr-corolla.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Rally-bred, road-legal.\n\nToyota built a rally car for the road, then refused to sell it with an automatic.",
+      "body": "Built on the same GR-FOUR all-wheel-drive philosophy as the cars Toyota sends rallying, then handed a six-speed manual and no automatic option at all.\n\n2024 Toyota GR Corolla Circuit Edition — 300 hp · 273 lb-ft · 0–60 mph in 4.9 sec.\n\n· 300 hp from 1.6 litres is 187 hp per litre — specific output usually reserved for engines with twice the cylinder count.\n· The centre exhaust is a working outlet, not a trim panel with a hole in it.\n· GR-FOUR all-wheel drive comes from the same programme Toyota goes rallying with.\n· Six-speed manual, and no automatic offered at any price.\n\nIt occupies a narrow segment: rally-derived all-wheel drive with a manual gearbox.",
+      "cta": "Would you take 300 hp from three cylinders over 300 hp from four?",
+      "hashtags": [
+        "#GRCorolla",
+        "#HotHatch",
+        "#ManualGearbox",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 153,
+      "char_count": 902
+    }
+  },
+  {
+    "id": "01-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "01",
+    "status": "draft",
+    "language": "en",
+    "slug": "toyota-gr-corolla",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/01-toyota-gr-corolla/instagram",
+    "output_files": {
+      "en": [
+        "toyota-gr-corolla.instagram.en.md",
+        "toyota-gr-corolla.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "Toyota built a rally car for the road, then refused to sell it with an automatic.\n\nThree cylinders. Three exhausts. One very serious hatchback.\n\n· 300 hp from 1.6 litres is 187 hp per litre — specific output usually reserved for engines with twice the cylinder count.\n· The centre exhaust is a working outlet, not a trim panel with a hole in it.\n· GR-FOUR all-wheel drive comes from the same programme Toyota goes rallying with.\n\n2024 Toyota GR Corolla Circuit Edition\n300 hp · 273 lb-ft · 0–60 mph in 4.9 sec · 1.6 L turbo I3\n\nIt's the most interesting car Toyota sells, and the one nobody cross-shops.\n\nWould you take 300 hp from three cylinders over 300 hp from four?\n\n#grcorolla #hothatch #manualgearbox #toyota #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "Toyota built a rally car for the road, then refused to sell it with an automatic.\n\nThree cylinders. Three exhausts. One very ",
+        "hashtags": [
+          "#grcorolla",
+          "#hothatch",
+          "#manualgearbox",
+          "#toyota",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 827
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Toyota GR Corolla",
+            "body": "Rally-bred, road-legal. Toyota built a rally car for the road, then refused to sell it with an automatic.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "300 hp from 1.6 litres",
+            "body": "300 hp from 1.6 litres is 187 hp per litre — specific output usually reserved for engines with twice the cylinder count.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "Three pipes, all real",
+            "body": "The centre exhaust is a working outlet, not a trim panel with a hole in it.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "Rally hardware, road plates",
+            "body": "GR-FOUR all-wheel drive comes from the same programme Toyota goes rallying with.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "No automatic. At all.",
+            "body": "Six-speed manual, and no automatic offered at any price.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "300 hp / 273 lb-ft / 1.6 L turbo I3 / 0–60 mph in 4.9 sec / AWD GR-FOUR / 6 spd manual",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "It's the most interesting car Toyota sells, and the one nobody cross-shops. Would you take 300 hp from three cylinders over 300 hp from four?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "01-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "01",
+    "status": "draft",
+    "language": "en",
+    "slug": "toyota-gr-corolla",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/01-toyota-gr-corolla/x",
+    "output_files": {
+      "en": [
+        "toyota-gr-corolla.x.tweet.en.md",
+        "toyota-gr-corolla.x.thread.en.md"
+      ],
+      "images": [
+        "toyota-gr-corolla.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "Toyota built a rally car for the road, then refused to sell it with an automatic.\n\n300 hp · 273 lb-ft · 0–60 mph in 4.9 sec\n\n#GRCorolla #HotHatch",
+        "char_count": 145,
+        "hashtags": [
+          "#GRCorolla",
+          "#HotHatch"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "Three cylinders. Three exhausts. One very serious hatchback.\n\n2024 Toyota GR Corolla Circuit Edition.",
+            "char_count": 101
+          },
+          {
+            "number": 2,
+            "text": "300 hp from 1.6 litres is 187 hp per litre — specific output usually reserved for engines with twice the cylinder count.",
+            "char_count": 120
+          },
+          {
+            "number": 3,
+            "text": "The centre exhaust is a working outlet, not a trim panel with a hole in it.",
+            "char_count": 75
+          },
+          {
+            "number": 4,
+            "text": "GR-FOUR all-wheel drive comes from the same programme Toyota goes rallying with.",
+            "char_count": 80
+          },
+          {
+            "number": 5,
+            "text": "Six-speed manual, and no automatic offered at any price.",
+            "char_count": 56
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 300 hp · 273 lb-ft · 1.6 L turbo I3 · 0–60 mph in 4.9 sec · AWD GR-FOUR · 6 spd manual.",
+            "char_count": 100
+          },
+          {
+            "number": 7,
+            "text": "It's the most interesting car Toyota sells, and the one nobody cross-shops.",
+            "char_count": 75
+          },
+          {
+            "number": 8,
+            "text": "Would you take 300 hp from three cylinders over 300 hp from four?\n\n#GRCorolla #HotHatch",
+            "char_count": 87
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "02-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "02",
+    "status": "draft",
+    "language": "en",
+    "slug": "jeep-wrangler-392",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/02-jeep-wrangler-392/linkedin",
+    "output_files": {
+      "en": [
+        "jeep-wrangler-392.linkedin.en.md"
+      ],
+      "images": [
+        "jeep-wrangler-392.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "There is only one.\n\nJeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.",
+      "body": "Full-time four-wheel drive, electronic sway-bar disconnect, and lockers front and rear. The quickest Wrangler ever built is also still a Wrangler.\n\n2024 Jeep Wrangler Rubicon 392 — 470 hp · 470 lb-ft · 0–60 mph in 4.5 sec.\n\n· 470 hp and 470 lb-ft — an unusually square power and torque figure — under a removable roof.\n· 4.5 seconds to 60 mph, in a vehicle with a live axle at each end.\n· Sway-bar disconnect and lockers front and rear survive the V8 intact.\n· 32.5 inches of fording depth and 10.3 inches of clearance: the trail hardware was never traded away for the engine.\n\nThe result is the quickest Wrangler built, with its off-road specification unchanged.",
+      "cta": "Last of the V8 Wranglers, or the one they should have started with?",
+      "hashtags": [
+        "#Wrangler",
+        "#V8",
+        "#OffRoad",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 155,
+      "char_count": 888
+    }
+  },
+  {
+    "id": "02-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "02",
+    "status": "draft",
+    "language": "en",
+    "slug": "jeep-wrangler-392",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/02-jeep-wrangler-392/instagram",
+    "output_files": {
+      "en": [
+        "jeep-wrangler-392.instagram.en.md",
+        "jeep-wrangler-392.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.\n\nA 6.4-litre V8 where the four-cylinder used to be.\n\n· 470 hp and 470 lb-ft — an unusually square power and torque figure — under a removable roof.\n· 4.5 seconds to 60 mph, in a vehicle with a live axle at each end.\n· Sway-bar disconnect and lockers front and rear survive the V8 intact.\n\n2024 Jeep Wrangler Rubicon 392\n470 hp · 470 lb-ft · 0–60 mph in 4.5 sec · 6.4 L HEMI V8\n\nEfficiency was never the brief. A Wrangler that runs 4.5 to 60 is the brief.\n\nLast of the V8 Wranglers, or the one they should have started with?\n\n#wrangler #v8 #offroad #jeep #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.\n\nA 6.4-litre V8 where the four-cylinder us",
+        "hashtags": [
+          "#wrangler",
+          "#v8",
+          "#offroad",
+          "#jeep",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 748
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Jeep Wrangler",
+            "body": "There's only one. Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "470 and 470",
+            "body": "470 hp and 470 lb-ft — an unusually square power and torque figure — under a removable roof.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "4.5 seconds, in a brick",
+            "body": "4.5 seconds to 60 mph, in a vehicle with a live axle at each end.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "Nothing was traded away",
+            "body": "Sway-bar disconnect and lockers front and rear survive the V8 intact.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "32.5 inches of water",
+            "body": "32.5 inches of fording depth and 10.3 inches of clearance: the trail hardware was never traded away for the engine.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "470 hp / 470 lb-ft / 6.4 L HEMI V8 / 0–60 mph in 4.5 sec / 10.3 in / 32.5 in",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "Efficiency was never the brief. A Wrangler that runs 4.5 to 60 is the brief. Last of the V8 Wranglers, or the one they should have started with?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "02-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "02",
+    "status": "draft",
+    "language": "en",
+    "slug": "jeep-wrangler-392",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/02-jeep-wrangler-392/x",
+    "output_files": {
+      "en": [
+        "jeep-wrangler-392.x.tweet.en.md",
+        "jeep-wrangler-392.x.thread.en.md"
+      ],
+      "images": [
+        "jeep-wrangler-392.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.\n\n470 hp · 470 lb-ft · 0–60 mph in 4.5 sec\n\n#Wrangler #V8",
+        "char_count": 139,
+        "hashtags": [
+          "#Wrangler",
+          "#V8"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "A 6.4-litre V8 where the four-cylinder used to be.\n\n2024 Jeep Wrangler Rubicon 392.",
+            "char_count": 83
+          },
+          {
+            "number": 2,
+            "text": "470 hp and 470 lb-ft — an unusually square power and torque figure — under a removable roof.",
+            "char_count": 92
+          },
+          {
+            "number": 3,
+            "text": "4.5 seconds to 60 mph, in a vehicle with a live axle at each end.",
+            "char_count": 65
+          },
+          {
+            "number": 4,
+            "text": "Sway-bar disconnect and lockers front and rear survive the V8 intact.",
+            "char_count": 69
+          },
+          {
+            "number": 5,
+            "text": "32.5 inches of fording depth and 10.3 inches of clearance: the trail hardware was never traded away for the engine.",
+            "char_count": 115
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 470 hp · 470 lb-ft · 6.4 L HEMI V8 · 0–60 mph in 4.5 sec · 10.3 in · 32.5 in.",
+            "char_count": 90
+          },
+          {
+            "number": 7,
+            "text": "Efficiency was never the brief. A Wrangler that runs 4.5 to 60 is the brief.",
+            "char_count": 76
+          },
+          {
+            "number": 8,
+            "text": "Last of the V8 Wranglers, or the one they should have started with?\n\n#Wrangler #V8",
+            "char_count": 82
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "03-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "03",
+    "status": "draft",
+    "language": "en",
+    "slug": "hyundai-ioniq-5-n",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/03-hyundai-ioniq-5-n/linkedin",
+    "output_files": {
+      "en": [
+        "hyundai-ioniq-5-n.linkedin.en.md"
+      ],
+      "images": [
+        "hyundai-ioniq-5-n.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Cancel the noise.\n\nHyundai gave an electric crossover a gearbox that is not there, and it changed how it drives.",
+      "body": "Hyundai gave an electric crossover a gearbox that is not there, a rev limiter for a redline that does not exist, and a track mode that manages battery heat lap after lap.\n\n2025 Hyundai IONIQ 5 N Dual Motor AWD — 641 hp · 568 lb-ft · 0–60 mph in 3.25 sec.\n\n· 641 hp and 568 lb-ft, which is 3.25 seconds to 60 mph in a family-shaped crossover.\n· N e-Shift simulates eight ratios: torque is cut and restored so a shift you can feel arrives where a shift never happens.\n· 84 kWh and 350 kW peak charging, with thermal management aimed at consecutive laps rather than a single quick one.\n· 221 miles EPA — the number that pays for all of the above, quoted rather than buried.\n\nSimulated shifts are a design choice about feedback, not a performance claim.",
+      "cta": "Fake gears in an EV: engineering, or theatre?",
+      "hashtags": [
+        "#IONIQ5N",
+        "#EV",
+        "#HyundaiN",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 176,
+      "char_count": 962
+    }
+  },
+  {
+    "id": "03-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "03",
+    "status": "draft",
+    "language": "en",
+    "slug": "hyundai-ioniq-5-n",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/03-hyundai-ioniq-5-n/instagram",
+    "output_files": {
+      "en": [
+        "hyundai-ioniq-5-n.instagram.en.md",
+        "hyundai-ioniq-5-n.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.\n\n641 horsepower, and a simulated eight-speed shift you don't need.\n\n· 641 hp and 568 lb-ft, which is 3.25 seconds to 60 mph in a family-shaped crossover.\n· N e-Shift simulates eight ratios: torque is cut and restored so a shift you can feel arrives where a shift never happens.\n· 84 kWh and 350 kW peak charging, with thermal management aimed at consecutive laps rather than a single quick one.\n\n2025 Hyundai IONIQ 5 N Dual Motor AWD\n641 hp · 568 lb-ft · 0–60 mph in 3.25 sec · 84.0 kWh\n\nSimulated shifts read as a gimmick until you notice every car already simulates its feedback.\n\nFake gears in an EV: engineering, or theatre?\n\n#ioniq5n #ev #hyundain #hyundai #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.\n\n641 horsepower, and a simulated",
+        "hashtags": [
+          "#ioniq5n",
+          "#ev",
+          "#hyundain",
+          "#hyundai",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 866
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Hyundai IONIQ 5 N",
+            "body": "Cancel the noise. Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "641 hp, 3.25 seconds",
+            "body": "641 hp and 568 lb-ft, which is 3.25 seconds to 60 mph in a family-shaped crossover.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "Eight gears that are not there",
+            "body": "N e-Shift simulates eight ratios: torque is cut and restored so a shift you can feel arrives where a shift never happens.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "350 kW, lap after lap",
+            "body": "84 kWh and 350 kW peak charging, with thermal management aimed at consecutive laps rather than a single quick one.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "221 miles, stated plainly",
+            "body": "221 miles EPA — the number that pays for all of the above, quoted rather than buried.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "641 hp / 568 lb-ft / 0–60 mph in 3.25 sec / 84.0 kWh / 221 mi EPA / 350 kW peak",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "Simulated shifts read as a gimmick until you notice every car already simulates its feedback. Fake gears in an EV: engineering, or theatre?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "03-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "03",
+    "status": "draft",
+    "language": "en",
+    "slug": "hyundai-ioniq-5-n",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/03-hyundai-ioniq-5-n/x",
+    "output_files": {
+      "en": [
+        "hyundai-ioniq-5-n.x.tweet.en.md",
+        "hyundai-ioniq-5-n.x.thread.en.md"
+      ],
+      "images": [
+        "hyundai-ioniq-5-n.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "Hyundai gave an electric crossover a gearbox that's not there, and it changed how it drives.\n\n641 hp · 568 lb-ft · 0–60 mph in 3.25 sec\n\n#IONIQ5N #EV",
+        "char_count": 149,
+        "hashtags": [
+          "#IONIQ5N",
+          "#EV"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "641 horsepower, and a simulated eight-speed shift you don't need.\n\n2025 Hyundai IONIQ 5 N Dual Motor AWD.",
+            "char_count": 105
+          },
+          {
+            "number": 2,
+            "text": "641 hp and 568 lb-ft, which is 3.25 seconds to 60 mph in a family-shaped crossover.",
+            "char_count": 83
+          },
+          {
+            "number": 3,
+            "text": "N e-Shift simulates eight ratios: torque is cut and restored so a shift you can feel arrives where a shift never happens.",
+            "char_count": 121
+          },
+          {
+            "number": 4,
+            "text": "84 kWh and 350 kW peak charging, with thermal management aimed at consecutive laps rather than a single quick one.",
+            "char_count": 114
+          },
+          {
+            "number": 5,
+            "text": "221 miles EPA — the number that pays for all of the above, quoted rather than buried.",
+            "char_count": 85
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 641 hp · 568 lb-ft · 0–60 mph in 3.25 sec · 84.0 kWh · 221 mi EPA · 350 kW peak.",
+            "char_count": 93
+          },
+          {
+            "number": 7,
+            "text": "Simulated shifts read as a gimmick until you notice every car already simulates its feedback.",
+            "char_count": 93
+          },
+          {
+            "number": 8,
+            "text": "Fake gears in an EV: engineering, or theatre?\n\n#IONIQ5N #EV",
+            "char_count": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "04-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "04",
+    "status": "draft",
+    "language": "en",
+    "slug": "honda-civic-type-r",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/04-honda-civic-type-r/linkedin",
+    "output_files": {
+      "en": [
+        "honda-civic-type-r.linkedin.en.md"
+      ],
+      "images": [
+        "honda-civic-type-r.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Experience.\n\nEvery rival answered more power with all-wheel drive. Honda kept solving the harder problem.",
+      "body": "A limited-slip differential, a rev-match you can switch off, and suspension tuned at the Nürburgring. Still three pedals. Still no substitute.\n\n2025 Honda Civic Type R FL5 — 315 hp · 310 lb-ft · 0–60 mph in 5.0 sec.\n\n· 315 hp through the front axle alone, held by a helical limited-slip differential.\n· Dual-axis front struts separate steering from suspension load, which is why the power does not tug at the wheel.\n· 169 mph and 5.0 seconds to 60 mph, with three pedals and no automatic offered.\n· Damping developed at the Nürburgring, and a rev-match you are allowed to switch off.\n\nIt remains the reference point for front-wheel-drive chassis engineering.",
+      "cta": "Has front-wheel drive hit its ceiling, or has Honda just raised it again?",
+      "hashtags": [
+        "#CivicTypeR",
+        "#FWD",
+        "#VTEC",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 146,
+      "char_count": 892
+    }
+  },
+  {
+    "id": "04-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "04",
+    "status": "draft",
+    "language": "en",
+    "slug": "honda-civic-type-r",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/04-honda-civic-type-r/instagram",
+    "output_files": {
+      "en": [
+        "honda-civic-type-r.instagram.en.md",
+        "honda-civic-type-r.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.\n\nThe front-wheel-drive benchmark, sharpened again.\n\n· 315 hp through the front axle alone, held by a helical limited-slip differential.\n· Dual-axis front struts separate steering from suspension load, which is why the power doesn't tug at the wheel.\n· 169 mph and 5.0 seconds to 60 mph, with three pedals and no automatic offered.\n\n2025 Honda Civic Type R FL5\n315 hp · 310 lb-ft · 0–60 mph in 5.0 sec · 2.0 L VTEC turbo\n\nThe front-wheel-drive ceiling keeps moving, and it's Honda that keeps moving it.\n\nHas front-wheel drive hit its ceiling, or has Honda just raised it again?\n\n#civictyper #fwd #vtec #honda #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.\n\nThe front-wheel-drive benchmark",
+        "hashtags": [
+          "#civictyper",
+          "#fwd",
+          "#vtec",
+          "#honda",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 812
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Honda Civic Type R",
+            "body": "Experience. Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "315 hp, front wheels only",
+            "body": "315 hp through the front axle alone, held by a helical limited-slip differential.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "Steering, kept separate",
+            "body": "Dual-axis front struts separate steering from suspension load, which is why the power doesn't tug at the wheel.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "169 mph, three pedals",
+            "body": "169 mph and 5.0 seconds to 60 mph, with three pedals and no automatic offered.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "Tuned at the Nürburgring",
+            "body": "Damping developed at the Nürburgring, and a rev-match you are allowed to switch off.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "315 hp / 310 lb-ft / 2.0 L VTEC turbo / 0–60 mph in 5.0 sec / 169 mph / FWD 6-spd manual",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "The front-wheel-drive ceiling keeps moving, and it's Honda that keeps moving it. Has front-wheel drive hit its ceiling, or has Honda just raised it again?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "04-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "04",
+    "status": "draft",
+    "language": "en",
+    "slug": "honda-civic-type-r",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/04-honda-civic-type-r/x",
+    "output_files": {
+      "en": [
+        "honda-civic-type-r.x.tweet.en.md",
+        "honda-civic-type-r.x.thread.en.md"
+      ],
+      "images": [
+        "honda-civic-type-r.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "Every rival answered more power with all-wheel drive. Honda kept solving the harder problem.\n\n315 hp · 310 lb-ft · 0–60 mph in 5.0 sec\n\n#CivicTypeR #FWD",
+        "char_count": 152,
+        "hashtags": [
+          "#CivicTypeR",
+          "#FWD"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "The front-wheel-drive benchmark, sharpened again.\n\n2025 Honda Civic Type R FL5.",
+            "char_count": 79
+          },
+          {
+            "number": 2,
+            "text": "315 hp through the front axle alone, held by a helical limited-slip differential.",
+            "char_count": 81
+          },
+          {
+            "number": 3,
+            "text": "Dual-axis front struts separate steering from suspension load, which is why the power doesn't tug at the wheel.",
+            "char_count": 111
+          },
+          {
+            "number": 4,
+            "text": "169 mph and 5.0 seconds to 60 mph, with three pedals and no automatic offered.",
+            "char_count": 78
+          },
+          {
+            "number": 5,
+            "text": "Damping developed at the Nürburgring, and a rev-match you are allowed to switch off.",
+            "char_count": 84
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 315 hp · 310 lb-ft · 2.0 L VTEC turbo · 0–60 mph in 5.0 sec · 169 mph · FWD 6-spd manual.",
+            "char_count": 102
+          },
+          {
+            "number": 7,
+            "text": "The front-wheel-drive ceiling keeps moving, and it's Honda that keeps moving it.",
+            "char_count": 80
+          },
+          {
+            "number": 8,
+            "text": "Has front-wheel drive hit its ceiling, or has Honda just raised it again?\n\n#CivicTypeR #FWD",
+            "char_count": 91
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "05-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "05",
+    "status": "draft",
+    "language": "en",
+    "slug": "porsche-911-gt3-rs",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/05-porsche-911-gt3-rs/linkedin",
+    "output_files": {
+      "en": [
+        "porsche-911-gt3-rs.linkedin.en.md"
+      ],
+      "images": [
+        "porsche-911-gt3-rs.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Aerodynamics, first.\n\nThe GT3 RS is a road car arranged around its aerodynamics rather than the other way round.",
+      "body": "The rear wing sits above the roofline for a reason: at 177 mph this car generates 1,895 pounds of downforce. Everything else was arranged around that.\n\n2024 Porsche 911 GT3 RS 992 — 518 hp · 342 lb-ft · 0–60 mph in 2.9 sec.\n\n· 1,895 lb of downforce at 177 mph — the reason the rear wing sits above the roofline, in clean air.\n· The drag reduction system stalls the wing down the straight, then hands the downforce\n        back for the corner.\n· 518 hp at 8,500 rpm from 4.0 naturally aspirated litres, spinning to 9,000 rpm.\n· 2.9 seconds to 60 mph is almost incidental: this car is built for the corner, not the traffic light.\n\nAerodynamic development, rather than power, defines this generation of the car.",
+      "cta": "Would you daily a road car with DRS?",
+      "hashtags": [
+        "#911GT3RS",
+        "#Porsche",
+        "#Aerodynamics",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 162,
+      "char_count": 922
+    }
+  },
+  {
+    "id": "05-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "05",
+    "status": "draft",
+    "language": "en",
+    "slug": "porsche-911-gt3-rs",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/05-porsche-911-gt3-rs/instagram",
+    "output_files": {
+      "en": [
+        "porsche-911-gt3-rs.instagram.en.md",
+        "porsche-911-gt3-rs.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "The GT3 RS is a road car arranged around its aerodynamics rather than the other way round.\n\nA road car with a drag reduction system.\n\n· 1,895 lb of downforce at 177 mph — the reason the rear wing sits above the roofline, in clean air.\n· The drag reduction system stalls the wing down the straight, then hands the downforce\n        back for the corner.\n· 518 hp at 8,500 rpm from 4.0 naturally aspirated litres, spinning to 9,000 rpm.\n\n2024 Porsche 911 GT3 RS 992\n518 hp · 342 lb-ft · 0–60 mph in 2.9 sec · 4.0 L flat-six\n\nIt's the rare road car where the bodywork is the engineering, not the wrapper around it.\n\nWould you daily a road car with DRS?\n\n#911gt3rs #porsche #aerodynamics #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "The GT3 RS is a road car arranged around its aerodynamics rather than the other way round.\n\nA road car with a drag reduction ",
+        "hashtags": [
+          "#911gt3rs",
+          "#porsche",
+          "#aerodynamics",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 794
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Porsche 911 GT3 RS",
+            "body": "Aerodynamics, first. The GT3 RS is a road car arranged around its aerodynamics rather than the other way round.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "1,895 lb of downforce",
+            "body": "1,895 lb of downforce at 177 mph — the reason the rear wing sits above the roofline, in clean air.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "DRS, with number plates",
+            "body": "The drag reduction system stalls the wing down the straight, then hands the downforce\n        back for the corner.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "9,000 rpm, no turbos",
+            "body": "518 hp at 8,500 rpm from 4.0 naturally aspirated litres, spinning to 9,000 rpm.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "Built for the corner",
+            "body": "2.9 seconds to 60 mph is almost incidental: this car is built for the corner, not the traffic light.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "518 hp / 342 lb-ft / 4.0 L flat-six / 9000 rpm / 0–60 mph in 2.9 sec / 1895 lb",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "It's the rare road car where the bodywork is the engineering, not the wrapper around it. Would you daily a road car with DRS?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "05-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "05",
+    "status": "draft",
+    "language": "en",
+    "slug": "porsche-911-gt3-rs",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/05-porsche-911-gt3-rs/x",
+    "output_files": {
+      "en": [
+        "porsche-911-gt3-rs.x.tweet.en.md",
+        "porsche-911-gt3-rs.x.thread.en.md"
+      ],
+      "images": [
+        "porsche-911-gt3-rs.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "The GT3 RS is a road car arranged around its aerodynamics rather than the other way round.\n\n518 hp · 342 lb-ft · 0–60 mph in 2.9 sec\n\n#911GT3RS #Porsche",
+        "char_count": 152,
+        "hashtags": [
+          "#911GT3RS",
+          "#Porsche"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "A road car with a drag reduction system.\n\n2024 Porsche 911 GT3 RS 992.",
+            "char_count": 70
+          },
+          {
+            "number": 2,
+            "text": "1,895 lb of downforce at 177 mph — the reason the rear wing sits above the roofline, in clean air.",
+            "char_count": 98
+          },
+          {
+            "number": 3,
+            "text": "The drag reduction system stalls the wing down the straight, then hands the downforce\n        back for the corner.",
+            "char_count": 114
+          },
+          {
+            "number": 4,
+            "text": "518 hp at 8,500 rpm from 4.0 naturally aspirated litres, spinning to 9,000 rpm.",
+            "char_count": 79
+          },
+          {
+            "number": 5,
+            "text": "2.9 seconds to 60 mph is almost incidental: this car is built for the corner, not the traffic light.",
+            "char_count": 100
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 518 hp · 342 lb-ft · 4.0 L flat-six · 9000 rpm · 0–60 mph in 2.9 sec · 1895 lb.",
+            "char_count": 92
+          },
+          {
+            "number": 7,
+            "text": "It's the rare road car where the bodywork is the engineering, not the wrapper around it.",
+            "char_count": 88
+          },
+          {
+            "number": 8,
+            "text": "Would you daily a road car with DRS?\n\n#911GT3RS #Porsche",
+            "char_count": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "06-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "06",
+    "status": "draft",
+    "language": "en",
+    "slug": "bmw-m5",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/06-bmw-m5/linkedin",
+    "output_files": {
+      "en": [
+        "bmw-m5.linkedin.en.md"
+      ],
+      "images": [
+        "bmw-m5.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "The numbers.\n\nBMW answered 717 horsepower with an electric motor inside the gearbox.",
+      "body": "A twin-turbo V8 married to an electric motor inside the gearbox. It will also do twenty-five miles on battery alone, silently, past your neighbours.\n\n2025 BMW M5 G90 — 717 hp combined · 738 lb-ft · 0–60 mph in 3.4 sec.\n\n· 717 hp combined and 738 lb-ft — a figure that needs both the V8 and the motor to reach it.\n· 3.4 seconds to 60 mph, and 190 mph with the M Driver’s Package.\n· 25 miles of electric range: the school run and the commute, without the V8 waking up.\n· M xDrive sends it to all four wheels, and still lets you take the front axle out of the equation.\n\nThe hybrid system serves two roles: silent short-range running, and filling torque below the turbos.",
+      "cta": "Is a 717 hp plug-in hybrid still an M5 to you?",
+      "hashtags": [
+        "#BMWM5",
+        "#Hybrid",
+        "#PerformanceSedan",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 158,
+      "char_count": 864
+    }
+  },
+  {
+    "id": "06-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "06",
+    "status": "draft",
+    "language": "en",
+    "slug": "bmw-m5",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/06-bmw-m5/instagram",
+    "output_files": {
+      "en": [
+        "bmw-m5.instagram.en.md",
+        "bmw-m5.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "BMW answered 717 horsepower with an electric motor inside the gearbox.\n\nSeven hundred and seventeen horsepower, in a saloon with a boot.\n\n· 717 hp combined and 738 lb-ft — a figure that needs both the V8 and the motor to reach it.\n· 3.4 seconds to 60 mph, and 190 mph with the M Driver’s Package.\n· 25 miles of electric range: the school run and the commute, without the V8 waking up.\n\n2025 BMW M5 G90\n717 hp combined · 738 lb-ft · 0–60 mph in 3.4 sec · 190 mph\n\nThe hybrid isn't the compromise here. It's the part that makes 717 hp liveable.\n\nIs a 717 hp plug-in hybrid still an M5 to you?\n\n#bmwm5 #hybrid #performancesedan #bmw #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "BMW answered 717 horsepower with an electric motor inside the gearbox.\n\nSeven hundred and seventeen horsepower, in a saloon w",
+        "hashtags": [
+          "#bmwm5",
+          "#hybrid",
+          "#performancesedan",
+          "#bmw",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 741
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "BMW M5",
+            "body": "The numbers. BMW answered 717 horsepower with an electric motor inside the gearbox.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "717 hp combined",
+            "body": "717 hp combined and 738 lb-ft — a figure that needs both the V8 and the motor to reach it.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "3.4 seconds, 190 mph",
+            "body": "3.4 seconds to 60 mph, and 190 mph with the M Driver’s Package.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "25 silent miles",
+            "body": "25 miles of electric range: the school run and the commute, without the V8 waking up.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "All four wheels, when asked",
+            "body": "M xDrive sends it to all four wheels, and still lets you take the front axle out of the equation.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "717 hp combined / 738 lb-ft / 0–60 mph in 3.4 sec / 190 mph / 25 mi range / AWD M xDrive",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "The hybrid isn't the compromise here. It's the part that makes 717 hp liveable. Is a 717 hp plug-in hybrid still an M5 to you?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "06-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "06",
+    "status": "draft",
+    "language": "en",
+    "slug": "bmw-m5",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/06-bmw-m5/x",
+    "output_files": {
+      "en": [
+        "bmw-m5.x.tweet.en.md",
+        "bmw-m5.x.thread.en.md"
+      ],
+      "images": [
+        "bmw-m5.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "BMW answered 717 horsepower with an electric motor inside the gearbox.\n\n717 hp combined · 738 lb-ft · 0–60 mph in 3.4 sec\n\n#BMWM5 #Hybrid",
+        "char_count": 137,
+        "hashtags": [
+          "#BMWM5",
+          "#Hybrid"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "Seven hundred and seventeen horsepower, in a saloon with a boot.\n\n2025 BMW M5 G90.",
+            "char_count": 82
+          },
+          {
+            "number": 2,
+            "text": "717 hp combined and 738 lb-ft — a figure that needs both the V8 and the motor to reach it.",
+            "char_count": 90
+          },
+          {
+            "number": 3,
+            "text": "3.4 seconds to 60 mph, and 190 mph with the M Driver’s Package.",
+            "char_count": 63
+          },
+          {
+            "number": 4,
+            "text": "25 miles of electric range: the school run and the commute, without the V8 waking up.",
+            "char_count": 85
+          },
+          {
+            "number": 5,
+            "text": "M xDrive sends it to all four wheels, and still lets you take the front axle out of the equation.",
+            "char_count": 97
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 717 hp combined · 738 lb-ft · 0–60 mph in 3.4 sec · 190 mph · 25 mi range · AWD M xDrive.",
+            "char_count": 102
+          },
+          {
+            "number": 7,
+            "text": "The hybrid isn't the compromise here. It's the part that makes 717 hp liveable.",
+            "char_count": 79
+          },
+          {
+            "number": 8,
+            "text": "Is a 717 hp plug-in hybrid still an M5 to you?\n\n#BMWM5 #Hybrid",
+            "char_count": 62
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "07-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "07",
+    "status": "draft",
+    "language": "en",
+    "slug": "mercedes-amg-gt-63",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/07-mercedes-amg-gt-63/linkedin",
+    "output_files": {
+      "en": [
+        "mercedes-amg-gt-63.linkedin.en.md"
+      ],
+      "images": [
+        "mercedes-amg-gt-63.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Two natures.\n\nAMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.",
+      "body": "Hand-assembled 4.0-litre biturbo V8, rear-axle steering, active roll stabilisation — and, now, two seats in the back that nobody expected.\n\n2025 Mercedes-Benz AMG GT 63 4MATIC+ — 577 hp · 590 lb-ft · 0–60 mph in 3.1 sec.\n\n· 577 hp and 590 lb-ft from a hand-assembled 4.0-litre biturbo V8.\n· 3.1 seconds to 60 mph and 196 mph, through 4MATIC+ all-wheel drive.\n· Rear-axle steering and active roll stabilisation, on a car sold as a tourer.\n· Two seats in the back this time, which nobody expected and everybody uses.\n\nIt is positioned between grand tourer and sports car, and specified for both.",
+      "cta": "Grand tourer or sports car — which one did they actually build?",
+      "hashtags": [
+        "#AMGGT",
+        "#Mercedes",
+        "#GrandTourer",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 139,
+      "char_count": 835
+    }
+  },
+  {
+    "id": "07-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "07",
+    "status": "draft",
+    "language": "en",
+    "slug": "mercedes-amg-gt-63",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/07-mercedes-amg-gt-63/instagram",
+    "output_files": {
+      "en": [
+        "mercedes-amg-gt-63.instagram.en.md",
+        "mercedes-amg-gt-63.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.\n\nA grand tourer that forgot to be comfortable about it.\n\n· 577 hp and 590 lb-ft from a hand-assembled 4.0-litre biturbo V8.\n· 3.1 seconds to 60 mph and 196 mph, through 4MATIC+ all-wheel drive.\n· Rear-axle steering and active roll stabilisation, on a car sold as a tourer.\n\n2025 Mercedes-Benz AMG GT 63 4MATIC+\n577 hp · 590 lb-ft · 0–60 mph in 3.1 sec · 4.0 L biturbo V8\n\nTwo natures, and AMG refused to pick one. That's the whole appeal.\n\nGrand tourer or sports car — which one did they actually build?\n\n#amggt #mercedes #grandtourer #mercedesbenz #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.\n\nA grand tourer that f",
+        "hashtags": [
+          "#amggt",
+          "#mercedes",
+          "#grandtourer",
+          "#mercedesbenz",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 763
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Mercedes-Benz AMG GT 63",
+            "body": "Two natures. AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "577 hp, built by hand",
+            "body": "577 hp and 590 lb-ft from a hand-assembled 4.0-litre biturbo V8.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "3.1 seconds, 196 mph",
+            "body": "3.1 seconds to 60 mph and 196 mph, through 4MATIC+ all-wheel drive.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "Rear steering on a tourer",
+            "body": "Rear-axle steering and active roll stabilisation, on a car sold as a tourer.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "Two seats nobody expected",
+            "body": "Two seats in the back this time, which nobody expected and everybody uses.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "577 hp / 590 lb-ft / 4.0 L biturbo V8 / 0–60 mph in 3.1 sec / 196 mph / AWD 4MATIC+",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "Two natures, and AMG refused to pick one. That's the whole appeal. Grand tourer or sports car — which one did they actually build?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "07-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "07",
+    "status": "draft",
+    "language": "en",
+    "slug": "mercedes-amg-gt-63",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/07-mercedes-amg-gt-63/x",
+    "output_files": {
+      "en": [
+        "mercedes-amg-gt-63.x.tweet.en.md",
+        "mercedes-amg-gt-63.x.thread.en.md"
+      ],
+      "images": [
+        "mercedes-amg-gt-63.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "AMG added rear-axle steering and two rear seats, then made the tourer harder-edged rather than softer.\n\n577 hp · 590 lb-ft · 0–60 mph in 3.1 sec\n\n#AMGGT #Mercedes",
+        "char_count": 162,
+        "hashtags": [
+          "#AMGGT",
+          "#Mercedes"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "A grand tourer that forgot to be comfortable about it.\n\n2025 Mercedes-Benz AMG GT 63 4MATIC+.",
+            "char_count": 93
+          },
+          {
+            "number": 2,
+            "text": "577 hp and 590 lb-ft from a hand-assembled 4.0-litre biturbo V8.",
+            "char_count": 64
+          },
+          {
+            "number": 3,
+            "text": "3.1 seconds to 60 mph and 196 mph, through 4MATIC+ all-wheel drive.",
+            "char_count": 67
+          },
+          {
+            "number": 4,
+            "text": "Rear-axle steering and active roll stabilisation, on a car sold as a tourer.",
+            "char_count": 76
+          },
+          {
+            "number": 5,
+            "text": "Two seats in the back this time, which nobody expected and everybody uses.",
+            "char_count": 74
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 577 hp · 590 lb-ft · 4.0 L biturbo V8 · 0–60 mph in 3.1 sec · 196 mph · AWD 4MATIC+.",
+            "char_count": 97
+          },
+          {
+            "number": 7,
+            "text": "Two natures, and AMG refused to pick one. That's the whole appeal.",
+            "char_count": 66
+          },
+          {
+            "number": 8,
+            "text": "Grand tourer or sports car — which one did they actually build?\n\n#AMGGT #Mercedes",
+            "char_count": 81
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "08-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "08",
+    "status": "draft",
+    "language": "en",
+    "slug": "ford-mustang-dark-horse",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/08-ford-mustang-dark-horse/linkedin",
+    "output_files": {
+      "en": [
+        "ford-mustang-dark-horse.linkedin.en.md"
+      ],
+      "images": [
+        "ford-mustang-dark-horse.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Still naturally aspirated.\n\nFord kept the atmospheric V8 and the manual gearbox almost every rival has dropped.",
+      "body": "The most powerful naturally aspirated Mustang Ford has put on sale, with a Tremec six-speed and forged connecting rods borrowed from the GT500.\n\n2025 Ford Mustang Dark Horse — 500 hp · 418 lb-ft · 0–60 mph in 4.1 sec.\n\n· 500 hp at 7,250 rpm, naturally aspirated — the most powerful non-supercharged Mustang sold.\n· A Tremec six-speed manual, in a market that has quietly stopped offering them.\n· Forged connecting rods carried over from the GT500, because 7,250 rpm asks for them.\n· 4.1 seconds to 60 mph and 166 mph, with nothing between your right foot and the intake.\n\nIt is among the last naturally aspirated V8s offered with a manual gearbox.",
+      "cta": "Turbocharged and quicker, or naturally aspirated and this?",
+      "hashtags": [
+        "#Mustang",
+        "#DarkHorse",
+        "#V8",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 145,
+      "char_count": 873
+    }
+  },
+  {
+    "id": "08-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "08",
+    "status": "draft",
+    "language": "en",
+    "slug": "ford-mustang-dark-horse",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/08-ford-mustang-dark-horse/instagram",
+    "output_files": {
+      "en": [
+        "ford-mustang-dark-horse.instagram.en.md",
+        "ford-mustang-dark-horse.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.\n\nFive litres, eight cylinders, no turbochargers, no apology.\n\n· 500 hp at 7,250 rpm, naturally aspirated — the most powerful non-supercharged Mustang sold.\n· A Tremec six-speed manual, in a market that has quietly stopped offering them.\n· Forged connecting rods carried over from the GT500, because 7,250 rpm asks for them.\n\n2025 Ford Mustang Dark Horse\n500 hp · 418 lb-ft · 0–60 mph in 4.1 sec · 5.0 L Coyote V8\n\nNaturally aspirated V8s are on a clock. This one is worth hearing before it runs out.\n\nTurbocharged and quicker, or naturally aspirated and this?\n\n#mustang #darkhorse #v8 #ford #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.\n\nFive litres, eight cylinders, no turboch",
+        "hashtags": [
+          "#mustang",
+          "#darkhorse",
+          "#v8",
+          "#ford",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 786
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Ford Mustang",
+            "body": "Still naturally aspirated. Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "500 hp, no turbochargers",
+            "body": "500 hp at 7,250 rpm, naturally aspirated — the most powerful non-supercharged Mustang sold.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "A manual, still",
+            "body": "A Tremec six-speed manual, in a market that has quietly stopped offering them.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "GT500 connecting rods",
+            "body": "Forged connecting rods carried over from the GT500, because 7,250 rpm asks for them.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "4.1 seconds, unfiltered",
+            "body": "4.1 seconds to 60 mph and 166 mph, with nothing between your right foot and the intake.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "500 hp / 418 lb-ft / 5.0 L Coyote V8 / 0–60 mph in 4.1 sec / 166 mph / 6 spd Tremec",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "Naturally aspirated V8s are on a clock. This one is worth hearing before it runs out. Turbocharged and quicker, or naturally aspirated and this?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "08-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "08",
+    "status": "draft",
+    "language": "en",
+    "slug": "ford-mustang-dark-horse",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/08-ford-mustang-dark-horse/x",
+    "output_files": {
+      "en": [
+        "ford-mustang-dark-horse.x.tweet.en.md",
+        "ford-mustang-dark-horse.x.thread.en.md"
+      ],
+      "images": [
+        "ford-mustang-dark-horse.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "Ford kept the atmospheric V8 and the manual gearbox almost every rival has dropped.\n\n500 hp · 418 lb-ft · 0–60 mph in 4.1 sec\n\n#Mustang #DarkHorse",
+        "char_count": 146,
+        "hashtags": [
+          "#Mustang",
+          "#DarkHorse"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "Five litres, eight cylinders, no turbochargers, no apology.\n\n2025 Ford Mustang Dark Horse.",
+            "char_count": 90
+          },
+          {
+            "number": 2,
+            "text": "500 hp at 7,250 rpm, naturally aspirated — the most powerful non-supercharged Mustang sold.",
+            "char_count": 91
+          },
+          {
+            "number": 3,
+            "text": "A Tremec six-speed manual, in a market that has quietly stopped offering them.",
+            "char_count": 78
+          },
+          {
+            "number": 4,
+            "text": "Forged connecting rods carried over from the GT500, because 7,250 rpm asks for them.",
+            "char_count": 84
+          },
+          {
+            "number": 5,
+            "text": "4.1 seconds to 60 mph and 166 mph, with nothing between your right foot and the intake.",
+            "char_count": 87
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 500 hp · 418 lb-ft · 5.0 L Coyote V8 · 0–60 mph in 4.1 sec · 166 mph · 6 spd Tremec.",
+            "char_count": 97
+          },
+          {
+            "number": 7,
+            "text": "Naturally aspirated V8s are on a clock. This one is worth hearing before it runs out.",
+            "char_count": 85
+          },
+          {
+            "number": 8,
+            "text": "Turbocharged and quicker, or naturally aspirated and this?\n\n#Mustang #DarkHorse",
+            "char_count": 79
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "09-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "09",
+    "status": "draft",
+    "language": "en",
+    "slug": "land-rover-defender-110-v8",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/09-land-rover-defender-110-v8/linkedin",
+    "output_files": {
+      "en": [
+        "land-rover-defender-110-v8.linkedin.en.md"
+      ],
+      "images": [
+        "land-rover-defender-110-v8.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Wade, then arrive.\n\nLand Rover put a supercharged V8 in the Defender without giving up anything that makes it one.",
+      "body": "Supercharged V8, air suspension that lifts to 11.5 inches, and a wading depth that treats a flooded lane as a routing suggestion rather than an obstacle.\n\n2024 Land Rover Defender 110 V8 — 518 hp · 461 lb-ft · 0–60 mph in 4.9 sec.\n\n· 35.4 inches of wading depth — deeper than most cars are tall at the sill.\n· Air suspension lifts ground clearance to 11.5 inches when the surface stops cooperating.\n· 518 hp from a supercharged 5.0-litre V8, and 4.9 seconds to 60 mph.\n· The party trick is not the speed. It is arriving dry, having taken the direct route.\n\nThe V8 sits alongside, rather than in place of, the vehicle’s off-road hardware.",
+      "cta": "Ground clearance or wading depth — which number would you actually use?",
+      "hashtags": [
+        "#Defender",
+        "#LandRover",
+        "#Overland",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 155,
+      "char_count": 886
+    }
+  },
+  {
+    "id": "09-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "09",
+    "status": "draft",
+    "language": "en",
+    "slug": "land-rover-defender-110-v8",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/09-land-rover-defender-110-v8/instagram",
+    "output_files": {
+      "en": [
+        "land-rover-defender-110-v8.instagram.en.md",
+        "land-rover-defender-110-v8.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "Land Rover put a supercharged V8 in the Defender without giving up anything that makes it one.\n\nThirty-five inches of water is a road surface.\n\n· 35.4 inches of wading depth — deeper than most cars are tall at the sill.\n· Air suspension lifts ground clearance to 11.5 inches when the surface stops cooperating.\n· 518 hp from a supercharged 5.0-litre V8, and 4.9 seconds to 60 mph.\n\n2024 Land Rover Defender 110 V8\n518 hp · 461 lb-ft · 0–60 mph in 4.9 sec · 5.0 L supercharged V8\n\nA V8 in a Defender should be excessive. Given where it can take you, it reads as specification.\n\nGround clearance or wading depth — which number would you actually use?\n\n#defender #landrover #overland #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "Land Rover put a supercharged V8 in the Defender without giving up anything that makes it one.\n\nThirty-five inches of water i",
+        "hashtags": [
+          "#defender",
+          "#landrover",
+          "#overland",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 792
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Land Rover Defender 110",
+            "body": "Wade, then arrive. Land Rover put a supercharged V8 in the Defender without giving up anything that makes it one.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "35.4 inches of wading",
+            "body": "35.4 inches of wading depth — deeper than most cars are tall at the sill.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "11.5 inches, on demand",
+            "body": "Air suspension lifts ground clearance to 11.5 inches when the surface stops cooperating.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "518 supercharged horsepower",
+            "body": "518 hp from a supercharged 5.0-litre V8, and 4.9 seconds to 60 mph.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "Arriving dry",
+            "body": "The party trick isn't the speed. It's arriving dry, having taken the direct route.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "518 hp / 461 lb-ft / 5.0 L supercharged V8 / 0–60 mph in 4.9 sec / 35.4 in / 11.5 in",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "A V8 in a Defender should be excessive. Given where it can take you, it reads as specification. Ground clearance or wading depth — which number would you actually use?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "09-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "09",
+    "status": "draft",
+    "language": "en",
+    "slug": "land-rover-defender-110-v8",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/09-land-rover-defender-110-v8/x",
+    "output_files": {
+      "en": [
+        "land-rover-defender-110-v8.x.tweet.en.md",
+        "land-rover-defender-110-v8.x.thread.en.md"
+      ],
+      "images": [
+        "land-rover-defender-110-v8.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "Land Rover put a supercharged V8 in the Defender without giving up anything that makes it one.\n\n518 hp · 461 lb-ft · 0–60 mph in 4.9 sec\n\n#Defender #LandRover",
+        "char_count": 158,
+        "hashtags": [
+          "#Defender",
+          "#LandRover"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "Thirty-five inches of water is a road surface.\n\n2024 Land Rover Defender 110 V8.",
+            "char_count": 80
+          },
+          {
+            "number": 2,
+            "text": "35.4 inches of wading depth — deeper than most cars are tall at the sill.",
+            "char_count": 73
+          },
+          {
+            "number": 3,
+            "text": "Air suspension lifts ground clearance to 11.5 inches when the surface stops cooperating.",
+            "char_count": 88
+          },
+          {
+            "number": 4,
+            "text": "518 hp from a supercharged 5.0-litre V8, and 4.9 seconds to 60 mph.",
+            "char_count": 67
+          },
+          {
+            "number": 5,
+            "text": "The party trick isn't the speed. It's arriving dry, having taken the direct route.",
+            "char_count": 82
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 518 hp · 461 lb-ft · 5.0 L supercharged V8 · 0–60 mph in 4.9 sec · 35.4 in · 11.5 in.",
+            "char_count": 98
+          },
+          {
+            "number": 7,
+            "text": "A V8 in a Defender should be excessive. Given where it can take you, it reads as specification.",
+            "char_count": 95
+          },
+          {
+            "number": 8,
+            "text": "Ground clearance or wading depth — which number would you actually use?\n\n#Defender #LandRover",
+            "char_count": 93
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "10-linkedin",
+    "kind": "post",
+    "platform": "linkedin",
+    "derived_from": "10",
+    "status": "draft",
+    "language": "en",
+    "slug": "tesla-model-s-plaid",
+    "effective_tone": {
+      "formality": 7,
+      "opinionated": 6
+    },
+    "output_folder": "out/posts/10-tesla-model-s-plaid/linkedin",
+    "output_files": {
+      "en": [
+        "tesla-model-s-plaid.linkedin.en.md"
+      ],
+      "images": [
+        "tesla-model-s-plaid.linkedin.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 14,
+      "failed": 0
+    },
+    "platform_data": {
+      "hook": "Delivery ticket.\n\nA saloon that runs the quarter mile in the nines and still takes four adults and the luggage.",
+      "body": "Three motors, carbon-sleeved rotors, and a quarter mile in the nines — from something that will also take four adults and their luggage to another state.\n\n2025 Tesla Model S Plaid — 1020 hp · 0–60 mph in 1.99 sec* · 200 mph.\n\n· 1,020 hp from three motors, and a quarter mile in 9.23 seconds.\n· 1.99 seconds to 60 mph — with rollout subtracted, which is the footnote that starts every argument.\n· 359 miles EPA range, from the same car that will run a nine-second pass.\n· 200 mph, in something with a boot at each end.\n\nBoth figures are quoted as published, including the rollout convention behind the 1.99.",
+      "cta": "Does rollout belong in a 0–60 time?",
+      "hashtags": [
+        "#ModelS",
+        "#Plaid",
+        "#EV",
+        "#CarSpecs",
+        "#AutomotiveDesign"
+      ],
+      "word_count": 145,
+      "char_count": 804
+    }
+  },
+  {
+    "id": "10-instagram",
+    "kind": "post",
+    "platform": "instagram",
+    "derived_from": "10",
+    "status": "draft",
+    "language": "en",
+    "slug": "tesla-model-s-plaid",
+    "effective_tone": {
+      "formality": 3,
+      "opinionated": 8
+    },
+    "output_folder": "out/posts/10-tesla-model-s-plaid/instagram",
+    "output_files": {
+      "en": [
+        "tesla-model-s-plaid.instagram.en.md",
+        "tesla-model-s-plaid.instagram.carousel.en.md"
+      ],
+      "images": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 16,
+      "failed": 0
+    },
+    "platform_data": {
+      "caption": {
+        "text": "A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.\n\nUnder two seconds to sixty, with the roof rack still fitted.\n\n· 1,020 hp from three motors, and a quarter mile in 9.23 seconds.\n· 1.99 seconds to 60 mph — with rollout subtracted, which is the footnote that starts every argument.\n· 359 miles EPA range, from the same car that will run a nine-second pass.\n\n2025 Tesla Model S Plaid\n1020 hp · 0–60 mph in 1.99 sec* · 200 mph · 359 mi EPA\n\nThe asterisk is fair game. The nine-second quarter mile, from a five-seat saloon, isn't.\n\nDoes rollout belong in a 0–60 time?\n\n#models #plaid #ev #tesla #carspecs #automotivedesign #cars #carsofinstagram #automotive #cardesign #specsheet #graphicdesign #typography",
+        "visible_preview": "A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.\n\nUnder two seconds to sixty, wi",
+        "hashtags": [
+          "#models",
+          "#plaid",
+          "#ev",
+          "#tesla",
+          "#carspecs",
+          "#automotivedesign",
+          "#cars",
+          "#carsofinstagram",
+          "#automotive",
+          "#cardesign",
+          "#specsheet",
+          "#graphicdesign",
+          "#typography"
+        ],
+        "char_count": 746
+      },
+      "carousel": {
+        "slide_count": 7,
+        "slides": [
+          {
+            "number": 1,
+            "kind": "cover",
+            "title": "Tesla Model S",
+            "body": "Delivery ticket. A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.",
+            "visual_direction": "Cover: silhouette running off the right edge on the accent field, model name at slide scale, kicker as tracked caps above it."
+          },
+          {
+            "number": 2,
+            "kind": "point",
+            "title": "1,020 hp, three motors",
+            "body": "1,020 hp from three motors, and a quarter mile in 9.23 seconds.",
+            "visual_direction": "Point 1 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 3,
+            "kind": "point",
+            "title": "1.99 seconds*",
+            "body": "1.99 seconds to 60 mph — with rollout subtracted, which is the footnote that starts every argument.",
+            "visual_direction": "Point 2 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 4,
+            "kind": "point",
+            "title": "359 miles, the same car",
+            "body": "359 miles EPA range, from the same car that will run a nine-second pass.",
+            "visual_direction": "Point 3 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 5,
+            "kind": "point",
+            "title": "200 mph, with a boot",
+            "body": "200 mph, in something with a boot at each end.",
+            "visual_direction": "Point 4 of 4: heading at display scale over a hairline rule, body set narrow, slide index in the corner."
+          },
+          {
+            "number": 6,
+            "kind": "specs",
+            "title": "The numbers",
+            "body": "1020 hp / 0–60 mph in 1.99 sec* / 200 mph / 359 mi EPA / 9.23 sec / AWD tri-motor",
+            "visual_direction": "Full spec table, dotted leaders, values in the accent colour."
+          },
+          {
+            "number": 7,
+            "kind": "closer",
+            "title": "Over to you",
+            "body": "The asterisk is fair game. The nine-second quarter mile, from a five-seat saloon, isn't. Does rollout belong in a 0–60 time?",
+            "visual_direction": "Closer: accent field, question at display scale, handle in tracked caps at the foot."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "10-x",
+    "kind": "post",
+    "platform": "x",
+    "derived_from": "10",
+    "status": "draft",
+    "language": "en",
+    "slug": "tesla-model-s-plaid",
+    "effective_tone": {
+      "formality": 4,
+      "opinionated": 9
+    },
+    "output_folder": "out/posts/10-tesla-model-s-plaid/x",
+    "output_files": {
+      "en": [
+        "tesla-model-s-plaid.x.tweet.en.md",
+        "tesla-model-s-plaid.x.thread.en.md"
+      ],
+      "images": [
+        "tesla-model-s-plaid.x.png"
+      ],
+      "platform_data": "platform_data.json"
+    },
+    "review": {
+      "checks": 13,
+      "failed": 0
+    },
+    "platform_data": {
+      "tweet": {
+        "text": "A saloon that runs the quarter mile in the nines and still takes four adults and the luggage.\n\n1020 hp · 0–60 mph in 1.99 sec* · 200 mph\n\n#ModelS #Plaid",
+        "char_count": 152,
+        "hashtags": [
+          "#ModelS",
+          "#Plaid"
+        ]
+      },
+      "thread": {
+        "tweet_count": 8,
+        "tweets": [
+          {
+            "number": 1,
+            "text": "Under two seconds to sixty, with the roof rack still fitted.\n\n2025 Tesla Model S Plaid.",
+            "char_count": 87
+          },
+          {
+            "number": 2,
+            "text": "1,020 hp from three motors, and a quarter mile in 9.23 seconds.",
+            "char_count": 63
+          },
+          {
+            "number": 3,
+            "text": "1.99 seconds to 60 mph — with rollout subtracted, which is the footnote that starts every argument.",
+            "char_count": 99
+          },
+          {
+            "number": 4,
+            "text": "359 miles EPA range, from the same car that will run a nine-second pass.",
+            "char_count": 72
+          },
+          {
+            "number": 5,
+            "text": "200 mph, in something with a boot at each end.",
+            "char_count": 46
+          },
+          {
+            "number": 6,
+            "text": "The numbers: 1020 hp · 0–60 mph in 1.99 sec* · 200 mph · 359 mi EPA · 9.23 sec · AWD tri-motor.",
+            "char_count": 95
+          },
+          {
+            "number": 7,
+            "text": "The asterisk is fair game. The nine-second quarter mile, from a five-seat saloon, isn't.",
+            "char_count": 88
+          },
+          {
+            "number": 8,
+            "text": "Does rollout belong in a 0–60 time?\n\n#ModelS #Plaid",
+            "char_count": 51
+          }
+        ]
+      }
+    }
+  }
+]

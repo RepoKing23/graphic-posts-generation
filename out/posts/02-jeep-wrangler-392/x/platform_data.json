@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "Jeep dropped a 6.4-litre V8 into a Wrangler and left every off-road part in place.\n\n470 hp · 470 lb-ft · 0–60 mph in 4.5 sec\n\n#Wrangler #V8",
+    "char_count": 139,
+    "hashtags": [
+      "#Wrangler",
+      "#V8"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "A 6.4-litre V8 where the four-cylinder used to be.\n\n2024 Jeep Wrangler Rubicon 392.",
+        "char_count": 83
+      },
+      {
+        "number": 2,
+        "text": "470 hp and 470 lb-ft — an unusually square power and torque figure — under a removable roof.",
+        "char_count": 92
+      },
+      {
+        "number": 3,
+        "text": "4.5 seconds to 60 mph, in a vehicle with a live axle at each end.",
+        "char_count": 65
+      },
+      {
+        "number": 4,
+        "text": "Sway-bar disconnect and lockers front and rear survive the V8 intact.",
+        "char_count": 69
+      },
+      {
+        "number": 5,
+        "text": "32.5 inches of fording depth and 10.3 inches of clearance: the trail hardware was never traded away for the engine.",
+        "char_count": 115
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 470 hp · 470 lb-ft · 6.4 L HEMI V8 · 0–60 mph in 4.5 sec · 10.3 in · 32.5 in.",
+        "char_count": 90
+      },
+      {
+        "number": 7,
+        "text": "Efficiency was never the brief. A Wrangler that runs 4.5 to 60 is the brief.",
+        "char_count": 76
+      },
+      {
+        "number": 8,
+        "text": "Last of the V8 Wranglers, or the one they should have started with?\n\n#Wrangler #V8",
+        "char_count": 82
+      }
+    ]
+  }
+}

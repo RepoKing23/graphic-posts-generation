@@ -1,0 +1,55 @@
+{
+  "tweet": {
+    "text": "Toyota built a rally car for the road, then refused to sell it with an automatic.\n\n300 hp · 273 lb-ft · 0–60 mph in 4.9 sec\n\n#GRCorolla #HotHatch",
+    "char_count": 145,
+    "hashtags": [
+      "#GRCorolla",
+      "#HotHatch"
+    ]
+  },
+  "thread": {
+    "tweet_count": 8,
+    "tweets": [
+      {
+        "number": 1,
+        "text": "Three cylinders. Three exhausts. One very serious hatchback.\n\n2024 Toyota GR Corolla Circuit Edition.",
+        "char_count": 101
+      },
+      {
+        "number": 2,
+        "text": "300 hp from 1.6 litres is 187 hp per litre — specific output usually reserved for engines with twice the cylinder count.",
+        "char_count": 120
+      },
+      {
+        "number": 3,
+        "text": "The centre exhaust is a working outlet, not a trim panel with a hole in it.",
+        "char_count": 75
+      },
+      {
+        "number": 4,
+        "text": "GR-FOUR all-wheel drive comes from the same programme Toyota goes rallying with.",
+        "char_count": 80
+      },
+      {
+        "number": 5,
+        "text": "Six-speed manual, and no automatic offered at any price.",
+        "char_count": 56
+      },
+      {
+        "number": 6,
+        "text": "The numbers: 300 hp · 273 lb-ft · 1.6 L turbo I3 · 0–60 mph in 4.9 sec · AWD GR-FOUR · 6 spd manual.",
+        "char_count": 100
+      },
+      {
+        "number": 7,
+        "text": "It's the most interesting car Toyota sells, and the one nobody cross-shops.",
+        "char_count": 75
+      },
+      {
+        "number": 8,
+        "text": "Would you take 300 hp from three cylinders over 300 hp from four?\n\n#GRCorolla #HotHatch",
+        "char_count": 87
+      }
+    ]
+  }
+}
