@@ -8,7 +8,8 @@
     "fonts": "node scripts/fetch-fonts.mjs",
     "photos": "node scripts/fetch-photos.mjs",
     "render": "node src/render.mjs",
-    "build": "npm run fonts && npm run render"
+    "build": "npm run fonts && npm run render",
+    "beauty": "python3 beauty/src/extract.py && node beauty/src/render.mjs"
   },
   "dependencies": {
     "playwright-core": "^1.56.0"
